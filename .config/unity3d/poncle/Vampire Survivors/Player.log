@@ -1,0 +1,1294 @@
+The selected window backend is x11 
+Mono path[0] = '/home/dle/.local/share/Steam/steamapps/common/Vampire Survivors/VampireSurvivors_Data/Managed'
+Mono config path = '/home/dle/.local/share/Steam/steamapps/common/Vampire Survivors/VampireSurvivors_Data/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+Display 0 'eDP-1 14"': 1920x1200 (primary device).
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Desktop is 1920 x 1200 @ 60 Hz
+Initialize engine version: 6000.0.61f1 (74a0adb02c31)
+[Subsystems] Discovering subsystems at path /home/dle/.local/share/Steam/steamapps/common/Vampire Survivors/VampireSurvivors_Data/UnitySubsystems
+kGfxThreadingModeClientWorkerNativeJobs is not supported on OpenGL Core. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Renderer: AMD Radeon 740M Graphics (radeonsi, phoenix2, LLVM 21.1.8, DRM 3.64, 6.18.13-200.fc43.x86_64)
+Vendor:   AMD
+Version:  4.6 (Core Profile) Mesa 25.3.5
+GLES:     0
+ GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_cla
+mp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_A
+RB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync 
+GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_obj
+ect GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_meminfo GL_ATI_texture_float GL_ATI_texture_mirror_once GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_c
+ompression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_mirror_clamp GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_RG8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_KHR_blend_equation_advanced GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NVX_gpu_memory_info GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader
+_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_shader_atomic_int64 GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 89030784
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.203 seconds
+- Finished resetting the current domain, in  0.004 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+22:28:03.106 (coherence) Log: Selected LogLevel includes trace logs, but no trace logs will be printed because scripting define is missing. Please add COHERENCE_LOG_TRACE to your scripting define symbols. 	logId=MissingTraceDefine
+22:28:03.200 (coherence) Log: Selected LogLevel includes debug logs, but no debug logs will be printed because scripting define is missing. Please add COHERENCE_LOG_DEBUG to your scripting define symbols. 	logId=MissingDebugDefine
+The referenced script (Unknown) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GameDebugInputManager') is missing!
+Default vsync count 0
+requesting resize 1920 x 1200
+Using native desktop resolution 1920 x 1200
+requesting fullscreen 1920 x 1200 at 0/1 Hz
+Desktop is 1920 x 1200 @ 60 Hz
+UnloadTime: 1.011768 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+Odin Serializer detected whitelisted runtime platform LinuxPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+22:28:04.657 (coherence) CoherenceBridge: RSL is enabled, forcing UDPOnly transport type  context=coherence Bridge (Coherence.Toolkit.CoherenceBridge)	originalTransport=UDPWithTCPFallback context=coherence Bridge (Coherence.Toolkit.CoherenceBridge)
+[S_API] SteamAPI_Init(): Loaded '/home/dle/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 1794680
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198014817376 [API loaded no]
+[VERSION_INFO][GAME] :: Vampire Survivors - 1.14.109
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+requesting resize 1920 x 1200
+Using native desktop resolution 1920 x 1200
+requesting fullscreen 1920 x 1200 at 0/1 Hz
+Desktop is 1920 x 1200 @ 60 Hz
+[VERSION_INFO][DLC] :: Moonspell - 1.0.198
+[VERSION_INFO][DLC] :: Foscari - 1.0.185
+[VERSION_INFO][DLC] :: Chalcedony - 1.0.160
+[VERSION_INFO][DLC] :: FirstBlood - 1.0.150
+[VERSION_INFO][DLC] :: ThosePeople - 1.0.132
+[SaveParser] -> Could not find parser for: RunCoins. Please add it to DefaultSaveData, SaveParser and SaveSerializer
+[SaveParser] -> Could not find parser for: RunEnemies. Please add it to DefaultSaveData, SaveParser and SaveSerializer
+[SaveParser] -> Could not find parser for: RunBosses. Please add it to DefaultSaveData, SaveParser and SaveSerializer
+[SaveParser] -> Could not find parser for: RunPickups. Please add it to DefaultSaveData, SaveParser and SaveSerializer
+[SaveParser] -> Could not find parser for: RunPickups_Coins. Please add it to DefaultSaveData, SaveParser and SaveSerializer
+[SaveParser] -> Could not find parser for: RunHunger. Please add it to DefaultSaveData, SaveParser and SaveSerializer
+***ADVENTURES*** If you are in adventure mode please make sure this method has been updated to support the correct config assignment!
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_gyoruntin
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: No resource location results for texture: enemies
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_followers
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_menya
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_syuuto
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_victor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_c01impostor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_john
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_soma
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_alucard
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_shanoa
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_maria
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_cornell
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_sniper
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_keremet
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_malphas
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_galamoth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_chaos
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: No resource location results for texture: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL01_FindCoffin with SteamID CHAL01_FindCoffin
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL02_Survive15Red with SteamID CHAL02_Survive15Red
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL03_EvolveReport with SteamID CHAL03_EvolveReport
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL04_Survive15Purple with SteamID CHAL04_Survive15Purple
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL05_EvolveTongue with SteamID CHAL05_EvolveTongue
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL06_Survive15Orange with SteamID CHAL06_Survive15Orange
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL07_EvolveSwipe with SteamID CHAL07_EvolveSwipe
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL08_ReachLv50Pink with SteamID CHAL08_ReachLv50Pink
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL09_EvolveSamples with SteamID CHAL09_EvolveSamples
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL10_Survive15Green with SteamID CHAL10_Survive15Green
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL11_EvolveVent with SteamID CHAL11_EvolveVent
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL12_GetMedicalToLevel7 with SteamID CHAL12_GetMedicalToLevel7
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL13_EvolveMedical with SteamID CHAL13_EvolveMedical
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL14_KillOneWithYellow with SteamID CHAL14_KillOneWithYellow
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL15_ReachLv50Blue with SteamID CHAL15_ReachLv50Blue
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL16_EvolveGarbage with SteamID CHAL16_EvolveGarbage
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL17_Defeat6000Cute with SteamID CHAL17_Defeat6000Cute
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL18_Defeat100kPurple with SteamID CHAL18_Defeat100kPurple
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL19_DefeatBoss25 with SteamID CHAL19_DefeatBoss25
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CHAL20_FindMap with SteamID CHAL20_FindMap
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_01_Find__Coffin with SteamID FB_01_Find__Coffin
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_02_SurvivLong with SteamID FB_02_SurvivLong
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_03_EvolveLong with SteamID FB_03_EvolveLong
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_04_SurvivShort with SteamID FB_04_SurvivShort
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_05_EvolveShort with SteamID FB_05_EvolveShort
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_06_SurvivSpread with SteamID FB_06_SurvivSpread
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_07_EvolveSpread with SteamID FB_07_EvolveSpread
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_08_SurvivLaser with SteamID FB_08_SurvivLaser
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_09_EvolveLaser with SteamID FB_09_EvolveLaser
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_10_Find__Coffin with SteamID FB_10_Find__Coffin
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_11_SurvivFire with SteamID FB_11_SurvivFire
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_12_EvolveFire with SteamID FB_12_EvolveFire
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_13_SurvivSonic with SteamID FB_13_SurvivSonic
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_14_EvolveSonic with SteamID FB_14_EvolveSonic
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_15_SurvivCross with SteamID FB_15_SurvivCross
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_16_EvolveCross with SteamID FB_16_EvolveCross
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_17_Find__Barrier with SteamID FB_17_Find__Barrier
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_18_SurvivPrism with SteamID FB_18_SurvivPrism
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_19_EvolvePrism with SteamID FB_19_EvolvePrism
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_20_Find__Rapid with SteamID FB_20_Find__Rapid
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_21_SurvivHoming with SteamID FB_21_SurvivHoming
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_22_EvolveHoming with SteamID FB_22_EvolveHoming
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_23_Find__Grenade with SteamID FB_23_Find__Grenade
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_24_SurvivMines with SteamID FB_24_SurvivMines
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_25_EvolveMines with SteamID FB_25_EvolveMines
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_26_DefeatSpecial with SteamID FB_26_DefeatSpecial
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_27_SurvivClaw with SteamID FB_27_SurvivClaw
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_28_EvolveClaw with SteamID FB_28_EvolveClaw
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_29_DefeatBoss with SteamID FB_29_DefeatBoss
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement FB_30_Find__Map with SteamID FB_30_Find__Map
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Leon_FindCoffin1 with SteamID TP_Leon_FindCoffin1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Sonia_HeartRefresh with SteamID TP_Sonia_HeartRefresh
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Trevor_Boss1 with SteamID TP_Trevor_Boss1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Sypha_EvoDragonwater with SteamID TP_Sypha_EvoDragonwater
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Grant_Boss2 with SteamID TP_Grant_Boss2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Alucard_Boss3 with SteamID TP_Alucard_Boss3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Hector_KarmaCoins with SteamID TP_Hector_KarmaCoins
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Christopher_EvoSworb with SteamID TP_Christopher_EvoSworb
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Simon_EvoLemuria with SteamID TP_Simon_EvoLemuria
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Juste_EvoCurse with SteamID TP_Juste_EvoCurse
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Julius_FindCoffin2 with SteamID TP_Julius_FindCoffin2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Yoko_Boss4 with SteamID TP_Yoko_Boss4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Soma_Boss5 with SteamID TP_Soma_Boss5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Jonhathan_EvoRPG with SteamID TP_Jonhathan_EvoRPG
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Charlotte_Mirrors with SteamID TP_Charlotte_Mirrors
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_John_EvoSpells with SteamID TP_John_EvoSpells
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Eric_EvoJavelin with SteamID TP_Eric_EvoJavelin
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Shanoa_EvoTwo with SteamID TP_Shanoa_EvoTwo
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Maria_unlock with SteamID TP_Maria_unlock
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Richter_EvoBeasts with SteamID TP_Richter_EvoBeasts
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Teleport1 with SteamID TP_Teleport1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Teleport2 with SteamID TP_Teleport2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Teleport3 with SteamID TP_Teleport3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Teleport4 with SteamID TP_Teleport4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Teleport5 with SteamID TP_Teleport5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Teleport6 with SteamID TP_Teleport6
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Relic_BlackDisk with SteamID TP_Relic_BlackDisk
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Relic_CastleMap with SteamID TP_Relic_CastleMap
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Relic_LibrarianCard with SteamID TP_Relic_LibrarianCard
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Relic_PileOfSecrets with SteamID TP_Relic_PileOfSecrets
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Relic_EbonyCrimsonStone with SteamID TP_Relic_EbonyCrimsonStone
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Hyper_Castle with SteamID TP_Hyper_Castle
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Dracula_FindCoffin3 with SteamID TP_Dracula_FindCoffin3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Lisa_WineGlass with SteamID TP_Lisa_WineGlass
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Shaft_Light with SteamID TP_Shaft_Light
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Elizabeth_Dark with SteamID TP_Elizabeth_Dark
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Vincent_Spells with SteamID TP_Vincent_Spells
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Mina_Shield with SteamID TP_Mina_Shield
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Albus_Confodere with SteamID TP_Albus_Confodere
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Barlowe_Spite with SteamID TP_Barlowe_Spite
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Isaac_Mace with SteamID TP_Isaac_Mace
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_SaintGermain_Chauve with SteamID TP_SaintGermain_Chauve
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Julia_Energy with SteamID TP_Julia_Energy
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Sara_AlchemyWhip with SteamID TP_Sara_AlchemyWhip
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Rinaldo_Flail with SteamID TP_Rinaldo_Flail
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Quincy_PlatinumWhip with SteamID TP_Quincy_PlatinumWhip
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Maxim_HolyWhip with SteamID TP_Maxim_HolyWhip
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Nathan_SonicWhip with SteamID TP_Nathan_SonicWhip
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Reinhardt_FindCoffin4 with SteamID TP_Reinhardt_FindCoffin4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Henry_Slash with SteamID TP_Henry_Slash
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Cornell_Gun with SteamID TP_Cornell_Gun
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Carrie_Custos with SteamID TP_Carrie_Custos
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_1 with SteamID TP_Weapon_WHIP_1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_2 with SteamID TP_Weapon_WHIP_2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_3 with SteamID TP_Weapon_WHIP_3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_4 with SteamID TP_Weapon_WHIP_4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_5 with SteamID TP_Weapon_WHIP_5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_6 with SteamID TP_Weapon_WHIP_6
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_7 with SteamID TP_Weapon_WHIP_7
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WHIP_8 with SteamID TP_Weapon_WHIP_8
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_1 with SteamID TP_Weapon_PROJECTILE_1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_2 with SteamID TP_Weapon_PROJECTILE_2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_3 with SteamID TP_Weapon_PROJECTILE_3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_4 with SteamID TP_Weapon_PROJECTILE_4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_5 with SteamID TP_Weapon_PROJECTILE_5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_6 with SteamID TP_Weapon_PROJECTILE_6
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_7 with SteamID TP_Weapon_PROJECTILE_7
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_PROJECTILE_8 with SteamID TP_Weapon_PROJECTILE_8
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_1 with SteamID TP_Weapon_SPELL_1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_2 with SteamID TP_Weapon_SPELL_2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_3 with SteamID TP_Weapon_SPELL_3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_4 with SteamID TP_Weapon_SPELL_4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_5 with SteamID TP_Weapon_SPELL_5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_6 with SteamID TP_Weapon_SPELL_6
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_7 with SteamID TP_Weapon_SPELL_7
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_SPELL_8 with SteamID TP_Weapon_SPELL_8
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_1 with SteamID TP_Weapon_WEAPON_1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_2 with SteamID TP_Weapon_WEAPON_2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_3 with SteamID TP_Weapon_WEAPON_3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_4 with SteamID TP_Weapon_WEAPON_4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_5 with SteamID TP_Weapon_WEAPON_5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_6 with SteamID TP_Weapon_WEAPON_6
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_7 with SteamID TP_Weapon_WEAPON_7
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_WEAPON_8 with SteamID TP_Weapon_WEAPON_8
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_1 with SteamID TP_Weapon_GLYPH_1
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_2 with SteamID TP_Weapon_GLYPH_2
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_3 with SteamID TP_Weapon_GLYPH_3
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_4 with SteamID TP_Weapon_GLYPH_4
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_5 with SteamID TP_Weapon_GLYPH_5
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_6 with SteamID TP_Weapon_GLYPH_6
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_7 with SteamID TP_Weapon_GLYPH_7
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_8 with SteamID TP_Weapon_GLYPH_8
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_9 with SteamID TP_Weapon_GLYPH_9
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_10 with SteamID TP_Weapon_GLYPH_10
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_11 with SteamID TP_Weapon_GLYPH_11
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Weapon_GLYPH_12 with SteamID TP_Weapon_GLYPH_12
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_FamiliarForge with SteamID TP_Selector_FamiliarForge
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_MorningStar with SteamID TP_Selector_MorningStar
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_SpectralSword with SteamID TP_Selector_SpectralSword
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_Spellbook with SteamID TP_Selector_Spellbook
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_Diabologue with SteamID TP_Selector_Diabologue
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_CoatOfArms with SteamID TP_Selector_CoatOfArms
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement TP_Selector_Candybox with SteamID TP_Selector_Candybox
+Is it registered in the Steam Partner site?
+[Steamworks.NET] - SteamUserStats.GetAchievement failed for Achievement CompleteAdv_OdeToCastlevania with SteamID CompleteAdv_OdeToCastlevania
+Is it registered in the Steam Partner site?
+The referenced script (VampireSurvivors.Input.MenuDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'SceneContext') is missing!
+There can be only one active Event System.
+Unloading 6 Unused Serialized files (Serialized files now loaded: 317)
+Unloading 2251 unused Assets to reduce memory usage. Loaded Objects now: 95248.
+Total: 159.219982 ms (FindLiveObjects: 11.872622 ms CreateObjectMapping: 4.360290 ms MarkObjects: 141.641536 ms  DeleteObjects: 1.345113 ms)
+
+Parent of RectTransform is being set with parent property. Consider using the SetParent method instead, with the worldPositionStays argument set to false. This will retain local orientation and scale rather than world orientation and scale, which can prevent common UI scaling issues.
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+The referenced script (VampireSurvivors.Input.GameDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GameDebugInputManager') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 129)
+Fired signal 'UISignals.ResetBackButtonNavigation' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+UnloadTime: 22.770196 ms
+Singleton mode enabled for the Master Object Pooler 'MasterObjectPooler' which is not a root GameObject; this means it cannot be made scene persistent
+Unloading 1613 unused Assets to reduce memory usage. Loaded Objects now: 102345.
+Total: 169.279013 ms (FindLiveObjects: 9.124017 ms CreateObjectMapping: 3.779289 ms MarkObjects: 155.251678 ms  DeleteObjects: 1.123428 ms)
+
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+[SpriteLoader] :: Texture already exists in sprite manager: enemiesM
+DIRECTER could not be added to the pool table as a pool with the same name already exists
+PhaserTilemap for layer Obstacle not found!
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+Unloading 1 Unused Serialized files (Serialized files now loaded: 166)
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Unloading 2529 unused Assets to reduce memory usage. Loaded Objects now: 164448.
+Total: 168.884583 ms (FindLiveObjects: 17.275729 ms CreateObjectMapping: 5.022041 ms MarkObjects: 144.079430 ms  DeleteObjects: 2.506983 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+[SpriteLoader] :: Texture already exists in sprite manager: enemies
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_gyoruntin
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_followers
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_menya
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_syuuto
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_victor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_c01impostor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_john
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_soma
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_alucard
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_shanoa
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_maria
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_cornell
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_sniper
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_keremet
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_malphas
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_galamoth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_chaos
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+The referenced script (VampireSurvivors.Input.MenuDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'SceneContext') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 317)
+Controller with id 5 disconnected but not a joystick but a Custom
+UnloadTime: 77.593534 ms
+Unloading 927 unused Assets to reduce memory usage. Loaded Objects now: 101341.
+Total: 143.968732 ms (FindLiveObjects: 7.090161 ms CreateObjectMapping: 2.456178 ms MarkObjects: 133.010614 ms  DeleteObjects: 1.411308 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 317)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 101457.
+Total: 141.472789 ms (FindLiveObjects: 5.841839 ms CreateObjectMapping: 2.329901 ms MarkObjects: 133.162800 ms  DeleteObjects: 0.137889 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+The referenced script (VampireSurvivors.Input.GameDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GameDebugInputManager') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 129)
+Fired signal 'UISignals.ResetBackButtonNavigation' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+UnloadTime: 10.927700 ms
+Singleton mode enabled for the Master Object Pooler 'MasterObjectPooler' which is not a root GameObject; this means it cannot be made scene persistent
+Unloading 1588 unused Assets to reduce memory usage. Loaded Objects now: 102483.
+Total: 236.641183 ms (FindLiveObjects: 10.533691 ms CreateObjectMapping: 4.443766 ms MarkObjects: 219.685395 ms  DeleteObjects: 1.977660 ms)
+
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+[SpriteLoader] :: Texture already exists in sprite manager: enemiesM
+DIRECTER could not be added to the pool table as a pool with the same name already exists
+PhaserTilemap for layer Obstacle not found!
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 1250/312 to 3125/312. Use DOTween.SetTweensCapacity to set it manually at startup
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+Unloading 0 Unused Serialized files (Serialized files now loaded: 165)
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Unloading 3088 unused Assets to reduce memory usage. Loaded Objects now: 157693.
+Total: 192.464990 ms (FindLiveObjects: 11.615250 ms CreateObjectMapping: 3.837679 ms MarkObjects: 174.061004 ms  DeleteObjects: 2.950535 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+[SpriteLoader] :: Texture already exists in sprite manager: enemies
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_gyoruntin
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_followers
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_menya
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_syuuto
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_victor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_c01impostor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_john
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_soma
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_alucard
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_shanoa
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_maria
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_cornell
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_sniper
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_keremet
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_malphas
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_galamoth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_chaos
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+The referenced script (VampireSurvivors.Input.MenuDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'SceneContext') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 317)
+Controller with id 6 disconnected but not a joystick but a Custom
+UnloadTime: 113.791901 ms
+Unloading 848 unused Assets to reduce memory usage. Loaded Objects now: 101302.
+Total: 151.585040 ms (FindLiveObjects: 7.897165 ms CreateObjectMapping: 3.356837 ms MarkObjects: 139.121789 ms  DeleteObjects: 1.208908 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 317)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 101418.
+Total: 144.397126 ms (FindLiveObjects: 5.195717 ms CreateObjectMapping: 2.063431 ms MarkObjects: 136.994168 ms  DeleteObjects: 0.143439 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+The referenced script (VampireSurvivors.Input.GameDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GameDebugInputManager') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 129)
+Fired signal 'UISignals.ResetBackButtonNavigation' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+UnloadTime: 15.242745 ms
+Singleton mode enabled for the Master Object Pooler 'MasterObjectPooler' which is not a root GameObject; this means it cannot be made scene persistent
+Unloading 1607 unused Assets to reduce memory usage. Loaded Objects now: 102444.
+Total: 236.394821 ms (FindLiveObjects: 10.719360 ms CreateObjectMapping: 4.458534 ms MarkObjects: 218.495923 ms  DeleteObjects: 2.719922 ms)
+
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+[SpriteLoader] :: Texture already exists in sprite manager: enemiesM
+DIRECTER could not be added to the pool table as a pool with the same name already exists
+PhaserTilemap for layer Obstacle not found!
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+Unloading 1 Unused Serialized files (Serialized files now loaded: 165)
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Unloading 2229 unused Assets to reduce memory usage. Loaded Objects now: 158316.
+Total: 191.324821 ms (FindLiveObjects: 16.938837 ms CreateObjectMapping: 4.927354 ms MarkObjects: 167.286685 ms  DeleteObjects: 2.171414 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+[SpriteLoader] :: Texture already exists in sprite manager: enemies
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_gyoruntin
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_followers
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_menya
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_syuuto
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_victor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_c01impostor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_john
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_soma
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_alucard
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_shanoa
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_maria
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_cornell
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_sniper
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_keremet
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_malphas
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_galamoth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_chaos
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+The referenced script (VampireSurvivors.Input.MenuDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'SceneContext') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 317)
+Controller with id 7 disconnected but not a joystick but a Custom
+UnloadTime: 113.418681 ms
+Unloading 851 unused Assets to reduce memory usage. Loaded Objects now: 101298.
+Total: 148.112695 ms (FindLiveObjects: 5.122038 ms CreateObjectMapping: 2.213202 ms MarkObjects: 139.534584 ms  DeleteObjects: 1.242220 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 317)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 101414.
+Total: 151.089049 ms (FindLiveObjects: 5.348704 ms CreateObjectMapping: 2.150184 ms MarkObjects: 143.446101 ms  DeleteObjects: 0.143519 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+The referenced script (VampireSurvivors.Input.GameDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GameDebugInputManager') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 129)
+Fired signal 'UISignals.ResetBackButtonNavigation' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+UnloadTime: 13.686987 ms
+Singleton mode enabled for the Master Object Pooler 'MasterObjectPooler' which is not a root GameObject; this means it cannot be made scene persistent
+Unloading 1604 unused Assets to reduce memory usage. Loaded Objects now: 102440.
+Total: 234.863438 ms (FindLiveObjects: 10.623690 ms CreateObjectMapping: 4.457121 ms MarkObjects: 217.818302 ms  DeleteObjects: 1.963533 ms)
+
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+[SpriteLoader] :: Texture already exists in sprite manager: enemiesM
+DIRECTER could not be added to the pool table as a pool with the same name already exists
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+PhaserTilemap for layer Obstacle not found!
+PhaserTilemap for layer Obstacle not found!
+PhaserTilemap for layer Obstacle not found!
+PhaserTilemap for layer Obstacle not found!
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+Unloading 1 Unused Serialized files (Serialized files now loaded: 165)
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Unloading 2178 unused Assets to reduce memory usage. Loaded Objects now: 155736.
+Total: 168.355110 ms (FindLiveObjects: 16.106014 ms CreateObjectMapping: 5.378330 ms MarkObjects: 144.579778 ms  DeleteObjects: 2.290607 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+[SpriteLoader] :: Texture already exists in sprite manager: enemies
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_gyoruntin
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_followers
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_menya
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_syuuto
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_victor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_c01impostor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_john
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_soma
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_alucard
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_shanoa
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_maria
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_cornell
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_sniper
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_keremet
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_malphas
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_galamoth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_chaos
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+The referenced script (VampireSurvivors.Input.MenuDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'SceneContext') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 317)
+Controller with id 8 disconnected but not a joystick but a Custom
+UnloadTime: 105.622164 ms
+Unloading 773 unused Assets to reduce memory usage. Loaded Objects now: 101369.
+Total: 184.934823 ms (FindLiveObjects: 9.876758 ms CreateObjectMapping: 4.703273 ms MarkObjects: 169.141175 ms  DeleteObjects: 1.213046 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 317)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 101485.
+Total: 149.183876 ms (FindLiveObjects: 5.325500 ms CreateObjectMapping: 2.193315 ms MarkObjects: 141.528534 ms  DeleteObjects: 0.135935 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+The referenced script (VampireSurvivors.Input.GameDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GameDebugInputManager') is missing!
+Unloading 6 Unused Serialized files (Serialized files now loaded: 129)
+Fired signal 'UISignals.ResetBackButtonNavigation' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+UnloadTime: 10.240541 ms
+Singleton mode enabled for the Master Object Pooler 'MasterObjectPooler' which is not a root GameObject; this means it cannot be made scene persistent
+Unloading 1588 unused Assets to reduce memory usage. Loaded Objects now: 102511.
+Total: 240.662016 ms (FindLiveObjects: 10.646453 ms CreateObjectMapping: 4.341334 ms MarkObjects: 223.808049 ms  DeleteObjects: 1.865400 ms)
+
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+[SpriteLoader] :: Texture already exists in sprite manager: enemiesM
+DIRECTER could not be added to the pool table as a pool with the same name already exists
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+No custom bounds found for layer Walls
+No custom bounds found for layer PlayerWall
+PhaserTilemap for layer Obstacle not found!
+PhaserTilemap for layer Obstacle not found!
+PhaserTilemap for layer Obstacle not found!
+PhaserTilemap for layer Obstacle not found!
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Sprite Tiling might not appear correctly because the Sprite used is not generated with Full Rect. To fix this, change the Mesh Type in the Sprite's import setting to Full Rect
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+TreasureReelUI: SpriteName SkillIcon_1.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName SkillIcon_2.png, from TextureName UI - the texture is not set to readable!
+TreasureReelUI: SpriteName C1_SHRINK_SCIENT.png, from TextureName chalcedony - the texture is not set to readable!
+Sprite TP_NEUTRON_BOMB1.png does not exist in TP_items
+TreasureReelUI: SpriteName TP_NEUTRON_BOMB1.png, from TextureName TP_items is not found!
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween was added to a Sequence and can't be controlled directly
+<color=#0099bc><b>DOTWEEN ► </b></color>This Tween has been killed and is now invalid
+Unloading 0 Unused Serialized files (Serialized files now loaded: 164)
+Attempting to set `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Unloading 2236 unused Assets to reduce memory usage. Loaded Objects now: 151146.
+Total: 234.329937 ms (FindLiveObjects: 18.321761 ms CreateObjectMapping: 4.870246 ms MarkObjects: 208.871939 ms  DeleteObjects: 2.265640 ms)
+
+Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
+[SpriteLoader] :: Texture already exists in sprite manager: enemies
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: Texture already exists in sprite manager: ThosePeople
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_batsbatsbats
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_gyoruntin
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_spacedette
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_followers
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_menya
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_syuuto
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_victor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_c01impostor
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_john
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_soma
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_alucard
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_shanoa
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_maria
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_cornell
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_jonathanandcharlotte
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_stellaandloretta
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_sniper
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_keremet
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_malphas
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_galamoth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_elizabeth
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_olrox
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_death
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_dracula
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_chaos
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_gaibonandslogra
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+[SpriteLoader] :: LoadAssetAsync result was null for texture: character_tp_faketrio
+The referenced script (VampireSurvivors.Input.MenuDebugInputManager) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'SceneContext') is missing!
+Unloading 5 Unused Serialized files (Serialized files now loaded: 317)
+Controller with id 9 disconnected but not a joystick but a Custom
+UnloadTime: 106.791438 ms
+Unloading 770 unused Assets to reduce memory usage. Loaded Objects now: 101372.
+Total: 240.773616 ms (FindLiveObjects: 9.950046 ms CreateObjectMapping: 9.751985 ms MarkObjects: 219.930404 ms  DeleteObjects: 1.140710 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 317)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 101488.
+Total: 161.890783 ms (FindLiveObjects: 6.025654 ms CreateObjectMapping: 2.317338 ms MarkObjects: 153.406016 ms  DeleteObjects: 0.141425 ms)
+
+Fired signal 'UISignals.ResetBackButtonNavigation' but no subscriptions found!  If this is intentional then either add OptionalSubscriber() to the binding or change the default in ZenjectSettings
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

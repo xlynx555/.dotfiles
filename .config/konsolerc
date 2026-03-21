@@ -1,0 +1,20 @@
+[Desktop Entry]
+DefaultProfile=Bash.profile
+
+[General]
+ConfigVersion=1
+
+[Notification Messages]
+CloseAllEmptyTabs=true
+CloseAllTabs=true
+CloseSingleTab=true
+
+[Profile Shortcuts]
+Alt+3=Bash
+
+[TabBar]
+NewTabButton=true
+TabBarPosition=Bottom
+
+[UiSettings]
+ColorScheme=BreezeDark

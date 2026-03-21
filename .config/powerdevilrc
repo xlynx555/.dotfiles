@@ -1,0 +1,5 @@
+[AC][Performance]
+PowerProfile=performance
+
+[Battery][Performance]
+PowerProfile=balanced
