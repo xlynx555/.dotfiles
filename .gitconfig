@@ -11,3 +11,5 @@
 	defaultBranch = main
 [includeIf "gitdir:~/Code/JYSK"]
     path = ~/.gitconfig-jysk
+[push]
+	autoSetupRemote = true
