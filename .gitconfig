@@ -7,3 +7,7 @@
 [user]
 	email = den.leschenko@gmail.com
 	name = Den Leschenko
+[init]
+	defaultBranch = main
+[includeIf "gitdir:~/Code/JYSK"]
+    path = ~/.gitconfig-jysk

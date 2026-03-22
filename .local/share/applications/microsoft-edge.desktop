@@ -105,13 +105,12 @@ Comment[vi]=Truy cập Internet
 Comment[zh_CN]=访问互联网
 Comment[zh_HK]=連線到網際網路
 Comment[zh_TW]=連線到網際網路
-Exec=~/.local/bin/microsoft-edge-stable %U
+Exec=/usr/bin/microsoft-edge-stable --enable-features=TouchpadOverscrollHistoryNavigation %U
 StartupNotify=true
 Terminal=false
 Icon=microsoft-edge
 Type=Application
 Categories=Network;WebBrowser;
-MimeType=application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/chromium;
 Actions=new-window;new-private-window;
 
 
@@ -167,7 +166,7 @@ Name[uk]=Нове вікно
 Name[vi]=Cửa sổ Mới
 Name[zh_CN]=新建窗口
 Name[zh_TW]=開新視窗
-Exec=~/.local/bin/microsoft-edge-stable
+Exec=/usr/bin/microsoft-edge-stable --enable-features=TouchpadOverscrollHistoryNavigation
 
 [Desktop Action new-private-window]
 Name=New InPrivate Window
@@ -219,4 +218,5 @@ Name[uk]=Нове вікно InPrivate
 Name[vi]=Cửa Sổ InPrivate Mới
 Name[zh_CN]=新建 InPrivate 窗口
 Name[zh_TW]=新 InPrivate 視窗
-Exec=/usr/bin/microsoft-edge-stable --inprivate
+Exec=/usr/bin/microsoft-edge-stable --inprivate --enable-features=TouchpadOverscrollHistoryNavigation %U
+MimeType=x-scheme-handler/mailto;application/pdf;application/rdf+xml;application/rss+xml;application/xhtml+xml;application/xhtml_xml;application/xml;image/gif;image/jpeg;image/png;image/webp;text/html;text/xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/chromium;

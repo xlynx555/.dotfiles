@@ -4,13 +4,17 @@ DefaultProfile=Bash.profile
 [General]
 ConfigVersion=1
 
+[MainWindow]
+State[$d]
+
 [Notification Messages]
 CloseAllEmptyTabs=true
 CloseAllTabs=true
 CloseSingleTab=true
 
 [Profile Shortcuts]
-Alt+3=Bash
+Ctrl+Alt+2=Pwsh
+Ctrl+Alt+3=Bash
 
 [TabBar]
 NewTabButton=true

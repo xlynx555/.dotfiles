@@ -1,6 +1,7 @@
 [Layout]
 DisplayNames=EN,UA
 LayoutList=us,ua
+Options=grp:caps_toggle,fkeys:basic_13-24
 ResetOldOptions=true
 SwitchMode=Window
 Use=true

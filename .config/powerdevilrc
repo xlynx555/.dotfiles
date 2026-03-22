@@ -1,5 +1,15 @@
+[AC][Display]
+TurnOffDisplayIdleTimeoutSec=900
+TurnOffDisplayIdleTimeoutWhenLockedSec=300
+
 [AC][Performance]
 PowerProfile=performance
 
+[AC][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=5400
+
 [Battery][Performance]
 PowerProfile=balanced
+
+[Battery][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=900
