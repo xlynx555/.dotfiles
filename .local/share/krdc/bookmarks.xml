@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xbel>
+<xbel folded="no" xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks" xmlns:kdepriv="http://www.kde.org/kdepriv" xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info">
+ <bookmark href="rdp://t3_dle@dk01rds005?domain=jysk.com">
+  <title>RDS T3</title>
+  <info>
+   <metadata owner="http://freedesktop.org">
+    <bookmark:icon name=""/>
+   </metadata>
+   <metadata owner="http://www.kde.org">
+    <time_added>1771595872</time_added>
+    <time_visited>1771828691</time_visited>
+    <visit_count>3</visit_count>
+   </metadata>
+  </info>
+ </bookmark>
+ <folder folded="no">
+  <title>History</title>
+  <info>
+   <metadata owner="http://www.kde.org">
+    <krdc-history>historyfolder</krdc-history>
+   </metadata>
+  </info>
+  <bookmark href="rdp://t0_dle@dk01rds008.jysk.com">
+   <title>RDS T0</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name=""/>
+    </metadata>
+    <metadata owner="http://www.kde.org">
+     <time_added>1774013063</time_added>
+     <time_visited>1774013063</time_visited>
+     <visit_count>1</visit_count>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="rdp://t3_dle@dk01rds005?domain=jysk.com">
+   <title>rdp://t3_dle@dk01rds005?domain=jysk.com</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name=""/>
+    </metadata>
+    <metadata owner="http://www.kde.org">
+     <time_added>1771840688</time_added>
+     <time_visited>1773991162</time_visited>
+     <visit_count>27</visit_count>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="rdp://t1_dle@emeauahovapp01?domain=jysk.com">
+   <title>VAPP01</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name=""/>
+    </metadata>
+    <metadata owner="http://www.kde.org">
+     <time_added>1773238798</time_added>
+     <time_visited>1773238798</time_visited>
+     <visit_count>1</visit_count>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="rdp://t1_dle@emeadkhovweb02.jysk.com?domain=jysk.com">
+   <title>store-overview</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name=""/>
+    </metadata>
+    <metadata owner="http://www.kde.org">
+     <time_added>1772705868</time_added>
+     <time_visited>1772705868</time_visited>
+     <visit_count>1</visit_count>
+    </metadata>
+   </info>
+  </bookmark>
+  <bookmark href="rdp://t3_dle@emeadkhovrds44.jysk.com?domain=jysk.com">
+   <title>rdp://t3_dle@emeadkhovrds44.jysk.com?domain=jysk.com</title>
+   <info>
+    <metadata owner="http://freedesktop.org">
+     <bookmark:icon name=""/>
+    </metadata>
+    <metadata owner="http://www.kde.org">
+     <time_added>1771423118</time_added>
+     <time_visited>1771423118</time_visited>
+     <visit_count>1</visit_count>
+    </metadata>
+   </info>
+  </bookmark>
+ </folder>
+</xbel>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE KrusaderUserActions>
+<KrusaderUserActions>
+ <action name="sample_panesize">
+  <title>Equal panel-size</title>
+  <tooltip>Sets the ratio between the two panels to 50/50</tooltip>
+  <icon>view-split-left-right</icon>
+  <category>Samples</category>
+  <command>%aPanelSize("50")%</command>
+ </action>
+ <action name="sample_edit_as_root">
+  <title>Edit as root</title>
+  <tooltip>Edit a file as root</tooltip>
+  <icon>document-edit</icon>
+  <category>Samples</category>
+  <description>Edit a file with root permissions</description>
+  <command>EDITOR='kate -b' SUDO_ASKPASS=/usr/bin/ssh-askpass sudoedit -A %aCurrent%</command>
+  <defaultshortcut>Ctrl+E</defaultshortcut>
+ </action>
+ <action name="sample_newmount">
+  <title>Mount</title>
+  <tooltip>Mount a new filesystem</tooltip>
+  <icon>media-mount</icon>
+  <category>Samples</category>
+  <command executionmode="collect_output" run_as="root">mount -t %_Ask("Filesystem Type?")% %_Ask("Device ?")% %_Ask("Mount Point ?")%</command>
+  <defaultshortcut>Ctrl+Alt+M</defaultshortcut>
+ </action>
+ <action name="sample_amarok_enqueue">
+  <title>Enqueue in Amarok</title>
+  <tooltip>Append selected item(s) to Amarok playlist</tooltip>
+  <icon>amarok</icon>
+  <category>Multimedia</category>
+  <description>(I18N_EMPTY_MESSAGE)</description>
+  <command>amarok --append %aList("Selected")%</command>
+  <defaultshortcut>Meta+A</defaultshortcut>
+ </action>
+ <action name="filename_to_clipboard">
+  <title>Copy file path of current item (escaping spaces)</title>
+  <tooltip>Copy file path of current item (escaping spaces)</tooltip>
+  <icon>edit-paste</icon>
+  <category>Samples</category>
+  <command>%_Clipboard("%aCurrent%")%</command>
+  <defaultshortcut>Ctrl+Alt+C</defaultshortcut>
+ </action>
+ <action name="filepath_to_clipboard">
+  <title>Copy file path of current item</title>
+  <tooltip>Copy file path of current item</tooltip>
+  <category>Samples</category>
+  <command>%_Clipboard("%aCurrent(, "No")%")%</command>
+ </action>
+ <action name="filepaths_to_clipboard">
+  <title>Copy file path(s) of selected item(s)</title>
+  <tooltip>Copy file path(s) of selected item(s)</tooltip>
+  <category>Samples</category>
+  <command>%_Clipboard("%aList("Selected", "\n", , , "No")%")%</command>
+ </action>
+ <action name="sort_by_name">
+  <title>Sort by Name</title>
+  <tooltip>Sort by Name</tooltip>
+  <icon>sort-name</icon>
+  <category>User Interface</category>
+  <description>Sorts the active panel by Name</description>
+  <command>%aColSort("Name")%</command>
+  <defaultshortcut>Ctrl+1</defaultshortcut>
+ </action>
+ <action name="sort_by_extension">
+  <title>Sort by Extension</title>
+  <tooltip>Sort by Extension</tooltip>
+  <icon>sort-name</icon>
+  <category>User Interface</category>
+  <description>Sorts the active panel by Extension</description>
+  <command>%aColSort("Ext")%</command>
+  <defaultshortcut>Ctrl+2</defaultshortcut>
+ </action>
+ <action name="sort_by_size">
+  <title>Sort by Size</title>
+  <tooltip>Sort by Size</tooltip>
+  <icon>sort-name</icon>
+  <category>User Interface</category>
+  <description>Sorts the active panel by Size</description>
+  <command>%aColSort("Size")%</command>
+  <defaultshortcut>Ctrl+3</defaultshortcut>
+ </action>
+ <action name="sort_by_modified">
+  <title>Sort by Modified</title>
+  <tooltip>Sort by Modified</tooltip>
+  <icon>sort-name</icon>
+  <category>User Interface</category>
+  <description>Sorts the active panel by Modified</description>
+  <command>%aColSort("Modified")%</command>
+  <defaultshortcut>Ctrl+4</defaultshortcut>
+ </action>
+ <action name="backup_current">
+  <title>Backup current</title>
+  <tooltip>Backup current file in current folder</tooltip>
+  <icon>document-save-as</icon>
+  <category>System</category>
+  <description>Backs current file up in current folder and asks the user for a new filename. By default ".old" is appended to the original filename.</description>
+  <command>%_Copy("%aCurrent("", "No")%", "%_Ask("New filename", "%aCurrent%.old")%")%</command>
+  <defaultshortcut>Meta+F5</defaultshortcut>
+ </action>
+ <action name="GK SFTP">
+  <title>GK SFTP</title>
+  <tooltip>GK SFTP</tooltip>
+  <icon>folder-remote-symbolic</icon>
+  <category>System</category>
+  <command>bash -c 'h="%_Ask("Enter Hostname", "bo-jsk")%"; host=${h^^}; krusader --left "sftp://$h/usr/local/gkretail/instances/$host/"'
+</command>
+  <defaultshortcut>Ctrl+Alt+Shift+G</defaultshortcut>
+ </action>
+ <action name="WFD PROD">
+  <title>WFD PROD</title>
+  <tooltip>WFD PROD</tooltip>
+  <category>System</category>
+  <command>krusader "sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/"</command>
+ </action>
+ <action name="WFD PROD_1">
+  <title>WFD TST</title>
+  <tooltip>WFD TST</tooltip>
+  <category>System</category>
+  <command>krusader "sftp://tst-wfdhq-01/usr/local/gkretail/transfer/imex/"</command>
+ </action>
+</KrusaderUserActions>
