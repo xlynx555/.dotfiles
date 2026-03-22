@@ -6,4 +6,7 @@ if status is-interactive
 end
 bind alt-backspace backward-kill-word
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias ssh="kitten ssh"
+#check if current terminal is kitty
+if test "$KITTY_WINDOW_ID"
+    alias ssh="kitten ssh"
+end

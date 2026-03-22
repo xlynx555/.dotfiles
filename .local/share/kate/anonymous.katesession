@@ -1,0 +1,250 @@
+[Document 0]
+URL=
+
+[Document 10]
+URL=file:///home/dle/.local/share/konsole/Bash.profile
+
+[Document 9]
+URL=file:///home/dle/.config-backup/.local/share/konsole/Bash.profile
+
+[Kate Plugins]
+bookmarksplugin=false
+cmaketoolsplugin=false
+compilerexplorer=false
+eslintplugin=false
+externaltoolsplugin=true
+formatplugin=false
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katecolorpickerplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=true
+kategdbplugin=false
+kategitblameplugin=false
+katekonsoleplugin=true
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+keyboardmacrosplugin=false
+ktexteditorpreviewplugin=false
+latexcompletionplugin=false
+lspclientplugin=true
+openlinkplugin=false
+rainbowparens=false
+rbqlplugin=false
+tabswitcherplugin=true
+templateplugin=false
+textfilterplugin=true
+
+[MainWindow0]
+Active ViewSpace=0
+Kate-MDI-H-Splitter=279,1362,0
+Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
+Kate-MDI-Sidebar-0-LastSize=279
+Kate-MDI-Sidebar-0-SectSizes=0
+Kate-MDI-Sidebar-0-Splitter=1043
+Kate-MDI-Sidebar-1-Bar-0-TvList=
+Kate-MDI-Sidebar-1-LastSize=200
+Kate-MDI-Sidebar-1-SectSizes=0
+Kate-MDI-Sidebar-1-Splitter=1043
+Kate-MDI-Sidebar-2-Bar-0-TvList=
+Kate-MDI-Sidebar-2-LastSize=200
+Kate-MDI-Sidebar-2-SectSizes=0
+Kate-MDI-Sidebar-2-Splitter=1362
+Kate-MDI-Sidebar-3-Bar-0-TvList=output,diagnostics,kate_plugin_katesearch,kateprojectinfo,kate_private_plugin_katekonsoleplugin
+Kate-MDI-Sidebar-3-LastSize=204
+Kate-MDI-Sidebar-3-SectSizes=0
+Kate-MDI-Sidebar-3-Splitter=1341
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-diagnostics-Position=3
+Kate-MDI-ToolView-diagnostics-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-diagnostics-Visible=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Position=3
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kate_private_plugin_katekonsoleplugin-Visible=false
+Kate-MDI-ToolView-kateproject-Position=0
+Kate-MDI-ToolView-kateproject-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateproject-Visible=false
+Kate-MDI-ToolView-kateprojectgit-Position=0
+Kate-MDI-ToolView-kateprojectgit-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectgit-Visible=false
+Kate-MDI-ToolView-kateprojectinfo-Position=3
+Kate-MDI-ToolView-kateprojectinfo-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-kateprojectinfo-Visible=false
+Kate-MDI-ToolView-lspclient_symbol_outline-Position=0
+Kate-MDI-ToolView-lspclient_symbol_outline-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
+Kate-MDI-ToolView-output-Position=3
+Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
+Kate-MDI-ToolView-output-Visible=true
+Kate-MDI-V-Splitter=0,838,204
+
+[MainWindow0 Settings]
+WindowState=8
+
+[MainWindow0-Splitter 0]
+Children=MainWindow0-ViewSpace 0
+Orientation=2
+Sizes=838
+
+[MainWindow0-ViewSpace 0]
+Active View=0
+Count=1
+Documents=0
+View 0=0
+View 10=10
+View 8=8
+View 9=9
+
+[MainWindow0-ViewSpace 0 7]
+ScrollLine=101
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.bashrc]
+CursorColumn=4
+CursorLine=4
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.bashrc]
+CursorColumn=0
+CursorLine=5
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.config/kdeglobals]
+ScrollLine=123
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.config/konsolerc]
+CursorColumn=0
+CursorLine=6
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.config/kxkbrc]
+CursorColumn=0
+CursorLine=3
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.config/powerdevilrc]
+CursorColumn=0
+CursorLine=15
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.config/starship.toml]
+CursorColumn=0
+CursorLine=6
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.gitconfig]
+CursorColumn=0
+CursorLine=6
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config-backup/.local/share/applications/microsoft-edge.desktop]
+CursorColumn=101
+CursorLine=220
+ScrollLine=174
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/fish/config.fish]
+CursorColumn=261
+CursorLine=8
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/gh/hosts.yml]
+CursorColumn=0
+CursorLine=6
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/kwinrc]
+CursorColumn=0
+CursorLine=1
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/kxkbrc]
+CursorColumn=41
+CursorLine=3
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/powerdevilrc]
+CursorColumn=0
+CursorLine=15
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/starship.toml]
+CursorColumn=113
+CursorLine=216
+ScrollLine=168
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.config/systemd/user/graphical-session.target.wants/vicinae.service]
+CursorColumn=0
+CursorLine=17
+
+[MainWindow0-ViewSpace 0 file:///home/dle/.gitconfig]
+CursorColumn=10
+CursorLine=1
+
+[MainWindow0-ViewSpace 1]
+Active View=3
+Count=3
+Documents=3,1,2
+View 0=3
+View 1=1
+View 2=2
+
+[MainWindow0-ViewSpace 1 1]
+CursorColumn=15
+CursorLine=15
+
+[Open Documents]
+Count=1
+
+[Open MainWindows]
+Count=1
+
+[Plugin:kateprojectplugin:]
+projects=
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchAsYouTypeAllProjects=true
+SearchAsYouTypeCurrentFile=true
+SearchAsYouTypeFolder=true
+SearchAsYouTypeOpenFiles=true
+SearchAsYouTypeProject=true
+SearchDiskFiles=
+SearchDiskFiless=
+SizeLimit=128
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=$HOME/.config/kwalletrc
+File10[$e]=$HOME/.local/share/kate/anonymous.katesession
+File2[$e]=$HOME/.config/kwinoutputconfig.json
+File3[$e]=$HOME/.config/krdcrc
+File4[$e]=$HOME/.config/fish/functions/smb.fish
+File5[$e]=$HOME/.config/fish/functions/config-sync.fish
+File6[$e]=$HOME/.config/fish/config.fish
+File7[$e]=$HOME/.config/kwinrc
+File8[$e]=$HOME/.config/xsettingsd/xsettingsd.conf
+File9[$e]=$HOME/.config/katerc
+Name1[$e]=kwalletrc
+Name10[$e]=anonymous.katesession
+Name2[$e]=kwinoutputconfig.json
+Name3[$e]=krdcrc
+Name4[$e]=smb.fish
+Name5[$e]=config-sync.fish
+Name6[$e]=config.fish
+Name7[$e]=kwinrc
+Name8[$e]=xsettingsd.conf
+Name9[$e]=katerc
