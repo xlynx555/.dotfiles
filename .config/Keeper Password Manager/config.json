@@ -1,7 +1,0 @@
-{
-	"__keeper_storage_migration_v1__": 1772233408334,
-	"vault-device-keys": "{\"expiry\":null,\"data\":\"djExBMtNf4BgGAyYyqyrOOVH1syfSI6OsNSJETMlvrq7WsRK1Rxxb65J3AS0iJRKES9TXBo8KbRZo-fUf7O6iiBL5Tg9QM5w3RFQmuDIMCfZP0Y_-IC4NfK6AhJ3nHKK4KZYQpMLLc0MCDm6zlPR9SFUZZCO_XzhcZGDX77EeFdxE9Ah4DpG37qGUHv9PKHbvDGZjgV4BxNNdtoHNRaoY_DOcpnXwT-i_ARUO9of_0UlTZFiQTNQtqxEZFJA8y6HXwMpVl6KN1DZeikUhPDsHGIAQqwZEeDmyFUnoi6v7EE_kBg\"}",
-	"key_device_clusters": "{\"expiry\":null,\"data\":[{\"token\":\"Sa-oeTdJAulEqB6IJfT2ojZv28wY0Aaff6wO6XkeKKCc6Q\",\"hosts\":{\"keepersecurity.com\":1}}]}",
-	"vault_language": "{\"expiry\":null,\"data\":\"en_US\"}",
-	"hide-welcome": "{\"expiry\":null,\"data\":1}"
-}

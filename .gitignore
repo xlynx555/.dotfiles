@@ -1,1 +1,4 @@
-.config/session/*
+.config/session/
+.config/microsoft-edge/
+.cache/
+.local/share/Trash/

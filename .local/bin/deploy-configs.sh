@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define the repository and the local storage path
-REPO_URL="your-repo-url-here"
+REPO_URL="https://github.com/xlynx555/.dotfiles.git"
 CONFIG_DIR="$HOME/.cfg"
 
 # 1. Clone the bare repository

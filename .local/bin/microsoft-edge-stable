@@ -1,0 +1,9 @@
+#!/bin/bash
+# Read the config file, ignore comments and empty lines
+FLAGS_FILE="$HOME/.config/microsoft-edge-stable-flags.conf"
+if [ -f "$FLAGS_FILE" ]; then
+    USER_FLAGS=$(grep -v '^#' "$FLAGS_FILE")
+fi
+
+# Execute the actual binary with your flags
+exec /usr/bin/microsoft-edge-stable $USER_FLAGS "$@"
