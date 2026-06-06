@@ -1,6 +1,13 @@
+[CompactMode]
+PreviewSize=64
+
 [General]
+ShowFullPath=true
 Version=202
 ViewPropsTimestamp=2026,2,18,19,6,10.367
+
+[InformationPanel]
+dateFormat=ShortFormat
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -8,3 +15,9 @@ Places Icons Static Size=22
 
 [MainWindow]
 MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[PreviewSettings]
+Plugins=imagethumbnail,djvuthumbnail,blenderthumbnail,appimagethumbnail,windowsexethumbnail,windowsimagethumbnail,comicbookthumbnail,audiothumbnail,directorythumbnail,opendocumentthumbnail,gsthumbnail,ffmpegthumbs,jpegthumbnail,kraorathumbnail,fontthumbnail,exrthumbnail,svgthumbnail,cursorthumbnail,mobithumbnail,rawthumbnail,ebookthumbnail,glycin-heif,papers,webp-pixbuf,glycin-svg,heif,glycin-image-rs,glycin-jxl,gnome-font-viewer,jxl,librsvg

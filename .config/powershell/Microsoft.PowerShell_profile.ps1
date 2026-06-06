@@ -26,3 +26,4 @@ function Go-EnactorDb {
     )
     &~/.local/bin/lazysql mysql://enactor:$(Get-EnactorDBPass $Name)@$Name 
 }
+$env:PATH += ":/home/dle/.krew/bin"

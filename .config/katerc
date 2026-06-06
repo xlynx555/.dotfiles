@@ -90,8 +90,13 @@ Word Completion Remove Tail=true
 [MainWindow]
 1920x1200 screen: Height=1076
 1920x1200 screen: Width=1687
-3 screens: Height=1076
-3 screens: Width=1687
+1920x1200 screen: Window-Maximized=true
+3 screens: Height=1388
+3 screens: Width=1274
+3 screens: Window-Maximized=true
+
+[UiSettings]
+ColorScheme=DankMatugen
 
 [filetree]
 editShade=183,220,246

@@ -9,5 +9,14 @@
 // Learn more about configuration at https://docs.vicinae.com/config
 
 {
-   "$schema": "https://vicinae.com/schemas/config.json"
+   "$schema": "https://vicinae.com/schemas/config.json",
+   "providers": {
+      "applications": {
+         "entrypoints": {
+            "org.kde.khelpcenter": {
+               "enabled": false
+            }
+         }
+      }
+   }
 }

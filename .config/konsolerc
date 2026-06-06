@@ -1,11 +1,8 @@
 [Desktop Entry]
-DefaultProfile=Bash.profile
+DefaultProfile=Fish.profile
 
 [General]
 ConfigVersion=1
-
-[MainWindow]
-State[$d]
 
 [Notification Messages]
 CloseAllEmptyTabs=true
@@ -13,12 +10,11 @@ CloseAllTabs=true
 CloseSingleTab=true
 
 [Profile Shortcuts]
+Ctrl+2=Pwsh
+Ctrl+3=Fish
 Ctrl+Alt+2=Pwsh
 Ctrl+Alt+3=Bash
 
 [TabBar]
 NewTabButton=true
 TabBarPosition=Bottom
-
-[UiSettings]
-ColorScheme=BreezeDark
