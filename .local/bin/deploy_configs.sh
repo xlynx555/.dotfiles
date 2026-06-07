@@ -82,7 +82,7 @@ if [ -f /etc/os-release ] && grep -qiE '(^ID=debian$|^ID_LIKE=.*debian)' /etc/os
     echo "Warning: $SRC_GPG not found; skipping."
   fi
   
-  REQUIRED_PACKAGES=(build-essential procps curl file git flatpak kitty foot powershell fonts-inter fonts-jetbrains-mono fonts-firacode)
+  REQUIRED_PACKAGES=(build-essential procps curl file git flatpak kitty foot powershell fonts-inter fonts-jetbrains-mono fonts-firacode gh)
   MISSING_PACKAGES=()
 
   for PKG in "${REQUIRED_PACKAGES[@]}"; do
@@ -107,6 +107,7 @@ if command -v flatpak >/dev/null 2>&1; then
   else
     echo "Configuring default Flatpak source: flathub"
     sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    flatpak update
   fi
 else
   echo "Warning: flatpak command not available; skipping Flatpak source configuration."
@@ -137,3 +138,12 @@ if ! command -v yazi >/dev/null 2>&1; then
 else
   echo "Yazi is already installed."
 fi
+
+# 11 install other tools with homebrew
+brew install lazysql topgrade
+# 12 install hashicorp vault with homebrew
+brew tap hashicorp/tap
+brew install hashicorp/tap/vault
+
+# 13 install bin (manage binary releases from Gihthub, Gitlab, Codeberg etc)
+curl -fsSL https://github.com/marcosnils/bin/releases/download/v0.26.0/bin_0.26.0_linux_amd64 -o /tmp/bin_0.26.0_linux_amd64  && chmod +x /tmp/bin_0.26.0_linux_amd64 && /tmp/bin_0.26.0_linux_amd64 install github.com/marcosnils/bin && rm /tmp/bin_0.26.0_linux_amd64
