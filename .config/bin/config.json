@@ -1,0 +1,15 @@
+{
+    "default_path": "/home/dle/.local/bin",
+    "bins": {
+        "/home/dle/.local/bin/bin": {
+            "path": "/home/dle/.local/bin/bin",
+            "remote_name": "bin_0.26.0_linux_amd64",
+            "version": "v0.26.0",
+            "hash": "e2c3546f25c1f82382dde95bbabc4684fb11947a78554d60947fb139a30c49c9",
+            "url": "github.com/marcosnils/bin",
+            "provider": "github",
+            "package_path": "",
+            "pinned": false
+        }
+    }
+}
