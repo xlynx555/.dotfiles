@@ -36,6 +36,7 @@ export EDITOR='micro'
 export VISUAL='micro'
 export "MICRO_TRUECOLOR=1"
 export KUBECONFIG=/home/dle/Downloads/config
+export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
 set -gx PATH $PATH $HOME/.krew/bin
 set -gx PATH $PATH $HOME/.local/bin
 

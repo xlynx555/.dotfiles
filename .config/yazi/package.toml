@@ -3,6 +3,11 @@ use = "uhs-robert/sshfs"
 rev = "a8b8903"
 hash = "8c1b36103121a66b37308afaf7124575"
 
+[[plugin.deps]]
+use = "yazi-rs/plugins:smart-enter"
+rev = "598cdb6"
+hash = "187cc58ba7ac3befd49c342129e6f1b6"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:catppuccin-mocha"
 rev = "0f9204b"

@@ -1,0 +1,24 @@
+{
+    "sshHostname": "sftp-no.integration.dev.enactor.jysk.com",
+    "sshHostKey": "[sftp-no.integration.dev.enactor.jysk.com]:32024 ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJ2Eg7PvxAux1lNy5L6kpERv+P1qBARo2Jfq8wzaGUcJ",
+    "sshDir": "/enactor/dev-no/em-processing/Imports/",
+    "sshDirStage": "/enactor/dev-no/em-processing/Imports/inbound_staging/",
+    "sshUser": "sa_catalog_dev",
+    "sshUserSuffix": "",
+    "sshPort": "32024",
+    "enactorVersion": "252",
+    "updateDuringDayHours": true,
+    "maxEntitiesInUpdateDuringDayHours": 50000,
+    "taxRegionList": [],
+    "enabledCatalogs": [
+      {
+        "catalogId": "1003-1-NO"
+      }
+    ],
+    "sendStoreInfo": true,
+    "senderStrategy": "SEND_ASAP",
+    "note": "DEV NO",
+    "notifySuccessByEmail": true,
+    "notifyFailureByEmail": false,
+    "maxBatchSize": 100000
+  }
