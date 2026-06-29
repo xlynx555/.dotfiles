@@ -11,6 +11,8 @@ alias aptu='sudo apt update'
 alias aptug='sudo apt upgrade'
 alias apti='sudo apt install'
 
+alias mount-enactor='sudo mount.cifs //jump-enactor.jysk.local/E/ /home/dle/mnt/jump-enactor-e/ -o credentials=/home/dle/.smbcredentials-user,uid=dle'
+
 # lsd
 alias ls='lsd --group-directories-first'
 alias ll='lsd -la --group-directories-first'

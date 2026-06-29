@@ -1,21 +1,52 @@
 [General]
+Allow Tab Scrolling=true
+Auto Hide Tabs=false
+Close After Last=true
+Close documents with window=true
+Cycle To First Tab=true
 Days Meta Infos=30
+Diagnostics Limit=12000
+Diff Show Style=0
+Elide Tab Text=false
+Enable Context ToolView=false
+Expand Tabs=false
+Icon size for left and right sidebar buttons=32
 Last Session=jysk
+Modified Notification=false
+Mouse back button action=0
+Mouse forward button action=0
+Open New Tab To The Right Of Current=false
+Output History Limit=100
+Output With Date=false
 PinnedDocuments=
+Recent File List Entry Count=10
+Restore Window Configuration=true
+SDI Mode=false
 Save Meta Infos=true
 Session Manager Sort Column=0
 Session Manager Sort Order=0
 Show Full Path in Title=true
 Show Menu Bar=true
 Show Status Bar=true
+Show Symbol In Navigation Bar=true
 Show Tab Bar=true
+Show Tabs Close Button=true
 Show Url Nav Bar=true
+Show output view for message type=1
+Show text for left and right sidebar=false
+Show welcome view for new window=true
 Startup Session=last
+Stash new unsaved files=true
+Stash unsaved file changes=false
+Sync section size with tab positions=false
+Tab Double Click New Document=true
+Tab Middle Click Close Document=true
+Tabbar Tab Limit=0
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=true
-Color Theme=Breeze Light
+Color Theme=Breeze Dark
 Line Height Multiplier=1
 Show Indentation Lines=false
 Show Whole Bracket Expression=false
@@ -87,16 +118,25 @@ Word Completion=true
 Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
+[Konsole]
+AutoSyncronizeMode=0
+KonsoleEscKeyBehaviour=true
+KonsoleEscKeyExceptions=vi,vim,nvim,git
+RemoveExtension=false
+RunPrefix=
+SetEditor=false
+
 [MainWindow]
 1920x1200 screen: Height=1076
 1920x1200 screen: Width=1687
 1920x1200 screen: Window-Maximized=true
-3 screens: Height=1388
-3 screens: Width=1274
+2 screens: Window-Maximized=true
+3 screens: Height=1024
+3 screens: Width=1896
 3 screens: Window-Maximized=true
 
-[UiSettings]
-ColorScheme=DankMatugen
+[Notification Messages]
+Kate hide sidebars notification message=false
 
 [filetree]
 editShade=183,220,246
@@ -108,3 +148,28 @@ showFullPathOnRoots=false
 showToolbar=true
 sortRole=0
 viewShade=211,190,222
+
+[lspclient]
+AllowedServerCommandLines=
+AutoHover=true
+AutoImport=true
+BlockedServerCommandLines=
+CompletionDocumentation=true
+CompletionParens=true
+Diagnostics=true
+FormatOnSave=false
+HighlightGoto=true
+HighlightSymbol=true
+IncrementalSync=false
+InlayHints=false
+Messages=true
+ReferencesDeclaration=true
+SemanticHighlighting=true
+ServerConfiguration=
+ShowCompletions=true
+SignatureHelp=true
+SymbolDetails=false
+SymbolExpand=true
+SymbolSort=false
+SymbolTree=true
+TypeFormatting=false

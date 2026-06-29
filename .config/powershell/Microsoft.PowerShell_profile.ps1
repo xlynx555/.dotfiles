@@ -1,4 +1,4 @@
-$env:PATH += ":/home/dle/.krew/bin:/home/dle/.local/bin:/home/dle/.cargo/bin"
+$env:PATH += ":/home/dle/.krew/bin:/home/dle/.local/bin:/home/dle/.cargo/bin:/home/linuxbrew/.linuxbrew/bin/"
 Invoke-Expression (&starship init powershell)
 
 Set-Variable -Name "JYSKPSRepoKey" -Value "a5725b99-0133-3c71-9434-ff3a416eb3b4" -Scope Global -Option ReadOnly

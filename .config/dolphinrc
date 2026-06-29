@@ -21,3 +21,6 @@ ToolButtonStyle=IconOnly
 
 [PreviewSettings]
 Plugins=imagethumbnail,djvuthumbnail,blenderthumbnail,appimagethumbnail,windowsexethumbnail,windowsimagethumbnail,comicbookthumbnail,audiothumbnail,directorythumbnail,opendocumentthumbnail,gsthumbnail,ffmpegthumbs,jpegthumbnail,kraorathumbnail,fontthumbnail,exrthumbnail,svgthumbnail,cursorthumbnail,mobithumbnail,rawthumbnail,ebookthumbnail,glycin-heif,papers,webp-pixbuf,glycin-svg,heif,glycin-image-rs,glycin-jxl,gnome-font-viewer,jxl,librsvg
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly

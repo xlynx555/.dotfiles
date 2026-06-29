@@ -1,6 +1,6 @@
 gtk-enable-event-sounds=0
 gtk-enable-animations=1
-gtk-theme-name="Breeze"
+gtk-theme-name="Breeze-Dark"
 gtk-primary-button-warps-slider=1
 gtk-toolbar-style=3
 gtk-menu-images=1
@@ -10,7 +10,7 @@ gtk-cursor-blink=1
 gtk-cursor-theme-size=24
 gtk-cursor-theme-name="breeze_cursors"
 gtk-sound-theme-name="ocean"
-gtk-icon-theme-name="Papirus"
+gtk-icon-theme-name="Amy-Dark-Icons"
 gtk-font-name="Inter,  10"
 
 gtk-modules=appmenu-gtk-module
