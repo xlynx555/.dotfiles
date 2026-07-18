@@ -1,0 +1,48 @@
+// DMS Window Rules - Managed by DankMaterialShell
+// Do not edit manually - changes may be overwritten
+
+// @id=wr_1774421645730981724 @name=msedge-_lfochlioelphaglamdcakfjemolpichk-Default
+window-rule {
+    match app-id="^msedge-_lfochlioelphaglamdcakfjemolpichk-Default$"
+    open-floating true
+}
+
+// @id=wr_1774629393276446670 @name=org.gnome.Nautilus
+window-rule {
+    match app-id="^org.gnome.Nautilus$"
+    tiled-state true
+}
+
+// @id=wr_1774651369087219975 @name=com.freerdp.client.sdl3
+window-rule {
+    match app-id="^com.freerdp.client.sdl3$"
+    open-maximized true
+    open-focused true
+    tiled-state true
+}
+
+// @id=wr_1774654370748841277 @name=xfreerdp
+window-rule {
+    match app-id="^xfreerdp$"
+    open-maximized true
+    open-focused true
+    tiled-state true
+}
+
+// @id=wr_1774658214716813200 @name=app.zen_browser.zen
+window-rule {
+    match app-id="app.zen_browser.zen" title="Picture-in-Picture"
+    open-floating true
+}
+
+// @id=wr_1774856847169608744 @name=com-sun-javaws-Main
+window-rule {
+    match app-id="^com-sun-javaws-Main$"
+    open-floating true
+}
+
+// @id=wr_1776326141288891056 @name=Zen Bitwarden
+window-rule {
+    match app-id="^app.zen_browser.zen$" title="^Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser$"
+    open-floating true
+}
