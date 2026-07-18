@@ -6,6 +6,9 @@ ShowFullPath=true
 Version=202
 ViewPropsTimestamp=2026,2,18,19,6,10.367
 
+[IconsMode]
+PreviewSize=80
+
 [InformationPanel]
 dateFormat=ShortFormat
 

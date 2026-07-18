@@ -1,6 +1,3 @@
-Id: cb8bf022-ccbe-42de-9c68-2bd377109202
-message-type: UNKNOWN_ORDER_LINE
-orderline-id: -1
-Device: T-DKD020-POS01
-Version: 226.0.4
-Enactor: 2.7.1331.267.1739
+Open	7F901101290626154137	25901	Åkerfelt Mia Kotiinkuljetus	0503531725	Kotiinkuljetus 	12.07.2026
+Fulfilled	7F901101130726111002	25901	Roger Kvarström 	0504333141	maksettu	13.07.2026
+Partial	7F901102030726110946	25901	Ahtinen 	0440544777	maksettu	19.07.2026

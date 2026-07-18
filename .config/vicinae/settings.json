@@ -10,10 +10,60 @@
 
 {
    "$schema": "https://vicinae.com/schemas/config.json",
+   "theme": {
+      "dark": {
+         "name": "noctalia"
+      }
+   },
+   "favorites": [
+      "applications:com.slack.Slack",
+      "applications:msedge-eoficlgicibekocmfdomjbfnjmehnhcd-Default",
+      "applications:msedge-cifhbcnohmdccbgoicgdjpfamggdegmo-Default",
+      "clipboard:history"
+   ],
    "providers": {
       "applications": {
          "entrypoints": {
+            "anytype": {
+               "enabled": false
+            },
+            "apport-kde": {
+               "enabled": false
+            },
+            "com.yubico.yubioath": {
+               "enabled": false
+            },
+            "dev.noctalia.Noctalia": {
+               "enabled": false
+            },
+            "display-im7.q16": {
+               "enabled": false
+            },
+            "gkbo": {
+               "enabled": false
+            },
+            "htop": {
+               "enabled": false
+            },
+            "im-config": {
+               "enabled": false
+            },
+            "info": {
+               "enabled": false
+            },
+            "install4j_1dt6fxz-itw-settings": {
+               "enabled": false
+            },
+            "kcm_notificationhelper": {
+               "enabled": false
+            },
             "org.kde.khelpcenter": {
+               "enabled": false
+            },
+            "org.kde.plasma-welcome": {
+               "enabled": false
+            },
+            "update-manager": {
                "enabled": false
             }
          }

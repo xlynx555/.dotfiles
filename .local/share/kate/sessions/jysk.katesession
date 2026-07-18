@@ -36,7 +36,7 @@ textfilterplugin=true
 
 [MainWindow0]
 Active ViewSpace=0
-Kate-MDI-H-Splitter=0,2560,0
+Kate-MDI-H-Splitter=0,1896,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
 Kate-MDI-Sidebar-0-LastSize=279
 Kate-MDI-Sidebar-0-SectSizes=0
@@ -82,15 +82,15 @@ Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
 Kate-MDI-ToolView-output-Position=3
 Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-output-Visible=false
-Kate-MDI-V-Splitter=0,1361,0
+Kate-MDI-V-Splitter=0,1002,0
 
 [MainWindow0 Settings]
-WindowState=10
+WindowState=8
 
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=2
-Sizes=1361
+Sizes=1002
 
 [MainWindow0-ViewSpace 0]
 Count=0
@@ -130,23 +130,23 @@ SizeLimit=128
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/v2.7.1331.287 (Q3-26.1)__UC326.1.0/build.log
-File10[$e]=$HOME/Documents/em.html
-File2[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/archive/prd-nl-Q2-26/EnactorInstall.ps1
-File3[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/bundle-Q3-26.1-UC326.1.0-PT.hash.json
-File4[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/v2.7.1331.287 (Q3-26.1)/326.1.0/bundle-Q3-26.1-UC326.1.0-PT-log.txt
-File5[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/v2.7.1331.287 (Q3-26.1)/326.1.0/bundle-Q3-26.1-UC326.1.0-PT.hash.json
-File6[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/v2.7.1331.267 (Q2-26)/226.0.5/bundle-Q2-26-UC226.0.5-AT.hash.json
-File7[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/v2.7.1331.267 (Q2-26)__UC226.0.5/build.log
-File8[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/v2.7.1331.287 (Q3-26.1)/326.1.0/bundle-Q3-26.1-UC326.1.0-NO-log.txt
-File9[$e]=$HOME/.local/share/applications/microsoft-edge.desktop
-Name1[$e]=build.log
-Name10[$e]=em.html
-Name2[$e]=EnactorInstall.ps1
-Name3[$e]=bundle-Q3-26.1-UC326.1.0-PT.hash.json
-Name4[$e]=bundle-Q3-26.1-UC326.1.0-PT-log.txt
-Name5[$e]=bundle-Q3-26.1-UC326.1.0-PT.hash.json
-Name6[$e]=bundle-Q2-26-UC226.0.5-AT.hash.json
-Name7[$e]=build.log
-Name8[$e]=bundle-Q3-26.1-UC326.1.0-NO-log.txt
-Name9[$e]=microsoft-edge.desktop
+File1[$e]=/usr/share/wallpapers/Patak/metadata.json
+File10[$e]=$HOME/OpenOrders_FI_SE.csv
+File2[$e]=$HOME/.config/kitty/current-theme.conf
+File3[$e]=$HOME/.config/kitty/kitty.conf
+File4[$e]=$HOME/OpenOrders_JFI_JSE.csv
+File5[$e]=$HOME/Downloads/response (3).json
+File6[$e]=$HOME/Downloads/response (2).json
+File7[$e]=$HOME/Code/ps-gk-database-helper/Providers/Oracle.ps1
+File8[$e]=$HOME/Temp/licence.txt
+File9[$e]=/media/dle/OSDisk/Users/dle/AppData/Roaming/DevExpress/DevExpress_License.txt
+Name1[$e]=metadata.json
+Name10[$e]=OpenOrders_FI_SE.csv
+Name2[$e]=current-theme.conf
+Name3[$e]=kitty.conf
+Name4[$e]=OpenOrders_JFI_JSE.csv
+Name5[$e]=response (3).json
+Name6[$e]=response (2).json
+Name7[$e]=Oracle.ps1
+Name8[$e]=licence.txt
+Name9[$e]=DevExpress_License.txt

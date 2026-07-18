@@ -2,6 +2,7 @@ StatusBar=Disabled
 
 [General]
 FullscreenOnConnect=true
+Items=rdp://t3_dle@dk01rds005?domain=jysk.com,rdp://t3_dle@sito.t3.psu.jysk.com?domain=jysk.com
 RememberSessions=true
 
 [MainWindow]
@@ -232,7 +233,8 @@ gatewayPassword=
 gatewayServer=
 gatewayTransportType=0
 gatewayUsername=
-height=1080
+grabAllKeys=true
+height=1033
 keyboardLayout=7
 proxyHost=
 proxyPassword=
@@ -747,7 +749,7 @@ gatewayServer=
 gatewayTransportType=0
 gatewayUsername=
 grabAllKeys=true
-height=1021
+height=1033
 keyboardLayout=7
 proxyHost=
 proxyPassword=
@@ -770,7 +772,7 @@ tlsSecLevel=1
 use_ssh_tunnel=false
 use_ssh_tunnel_loopback=false
 walletSupport=false
-width=1914
+width=1920
 windowedScale=true
 
 [hostpreferences][rdp://t1_dle@hr01app002.jysk.com]
@@ -1066,7 +1068,7 @@ gatewayServer=
 gatewayTransportType=0
 gatewayUsername=
 grabAllKeys=true
-height=1028
+height=998
 keyboardLayout=7
 proxyHost=
 proxyPassword=
@@ -1074,7 +1076,7 @@ proxyProtocol=0
 proxyUsername=
 resolution=3
 scaleFactor=100
-scaleToSize=false
+scaleToSize=true
 securityEXT=false
 securityNLA=true
 securityRDP=true
@@ -1089,7 +1091,7 @@ tlsSecLevel=1
 use_ssh_tunnel=false
 use_ssh_tunnel_loopback=false
 walletSupport=true
-width=1920
+width=1914
 windowedScale=true
 
 [hostpreferences][rdp://t3_dle@emeadkhovrds44.jysk.com?domain=jysk]
@@ -1147,7 +1149,7 @@ gatewayServer=
 gatewayTransportType=0
 gatewayUsername=
 grabAllKeys=true
-height=1144
+height=1033
 keyboardLayout=7
 proxyHost=
 proxyPassword=

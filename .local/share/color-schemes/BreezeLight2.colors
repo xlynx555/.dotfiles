@@ -134,7 +134,7 @@ ForegroundVisited=155,89,182
 ColorScheme=BreezeLight
 Name=Breeze Light 2
 TintFactor=0.15
-TitlebarIsAccentColored=false
+TitlebarIsAccentColored=true
 shadeSortColumn=true
 
 [KDE]

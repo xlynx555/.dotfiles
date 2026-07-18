@@ -5,6 +5,8 @@ if status is-interactive
     zoxide init fish | source
 end
 bind alt-backspace backward-kill-word
+alias reload-config-fish='. $HOME/.config/fish/config.fish'
+
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias apts='apt search'
 alias aptu='sudo apt update'
@@ -27,12 +29,15 @@ alias onelppsm='/usr/lib/jvm/jre1.8.0_202/bin/javaws http://sm-01-prod.gk.jysk.n
 alias vpnup='forticlient vpn connect JYSK -s -u dle'
 alias vpndown='forticlient vpn disconnect'
 
+alias vicinae-update='curl -fsSL https://vicinae.com/install | sudo bash'
+alias edit-config-fish='micro $HOME/.config/fish/config.fish'
+alias edit-config-kitty='micro $HOME/.config/kitty/kitty.conf'
 
 
 #check if current terminal is kitty
-if test "$KITTY_WINDOW_ID"
-    alias ssh="kitten ssh"
-end
+#if test "$KITTY_WINDOW_ID"
+#    alias ssh="kitten ssh"
+#end
 
 export EDITOR='micro'
 export VISUAL='micro'
@@ -41,5 +46,4 @@ export KUBECONFIG=/home/dle/Downloads/config
 export HOMEBREW_NO_REQUIRE_TAP_TRUST=1
 set -gx PATH $PATH $HOME/.krew/bin
 set -gx PATH $PATH $HOME/.local/bin
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv fish)"
+set -gx PATH $PATH $HOME/.local/share/soar/bin

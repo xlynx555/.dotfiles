@@ -15,9 +15,8 @@ shell /usr/bin/fish
 #include GruvBox_DarkHard.conf
 #include Wryan.conf
 #include VSCode_Dark.conf
-#include dank-tabs.conf
-#include dank-theme.conf
-#include themes/noctalia.conf
+include dank-tabs.conf
+include dank-theme.conf
 # terminal opacity and blur
 dynamic_background_opacity yes
 background_opacity 0.9
@@ -32,7 +31,7 @@ enable_audio_bell no
 
 # os specific tweaks (Gnome window decoration for wayland)
 linux_display_server wayland
-#wayland_titlebar_color system
+wayland_titlebar_color background
 
 # font
 font_family        SauceCodePro Nerd Font
@@ -62,13 +61,11 @@ mouse_hide_wait -1
 remember_window_size  no
 initial_window_width  1200
 initial_window_height 750
-window_border_width 1pt
+window_border_width 1.5pt
 enabled_layouts tall
 window_padding_width 0
-window_margin_width 0
+window_margin_width 2
 hide_window_decorations no
-# window_title_bar top
-# window_title_bar_min_windows 0
 
 # window management 
 map ctrl+shift+enter new_window
@@ -113,9 +110,3 @@ notify_on_cmd_finish invisible 20
 cursor_trail 200
 cursor_trail_decay 0.1 0.4
 cursor_trail_start_threshold 2
-
-
-# BEGIN_KITTY_THEME
-# Noctalia
-include current-theme.conf
-# END_KITTY_THEME
