@@ -46,3 +46,31 @@ window-rule {
     match app-id="^app.zen_browser.zen$" title="^Extension: (Bitwarden Password Manager) - Bitwarden — Zen Browser$"
     open-floating true
 }
+
+// @id=wr_1784935574623019161 @name=Chrome youtube
+window-rule {
+    match title="Picture in picture" is-floating=false
+    open-floating true
+    open-on-workspace "*"
+    default-column-width { fixed 600; }
+    default-window-height { fixed 350; }
+    default-floating-position x=0 y=0 relative-to="bottom-right"
+}
+
+// @id=wr_1787396685144415705 @name=org.telegram.desktop
+window-rule {
+    match app-id="^org.telegram.desktop$"
+    open-on-workspace "chat"
+}
+
+// @id=wr_1787398693041284075 @name=chrome-eoficlgicibekocmfdomjbfnjmehnhcd-Default
+window-rule {
+    match app-id="^chrome-eoficlgicibekocmfdomjbfnjmehnhcd-Default$"
+    draw-border-with-background true
+}
+
+// @id=dms-floating-windows @name=DMS Floating Windows
+window-rule {
+    match app-id="^com.danklinux.dms$"
+    open-floating true
+}

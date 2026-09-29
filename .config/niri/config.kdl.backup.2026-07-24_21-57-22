@@ -1,0 +1,50 @@
+// This config is in the KDL format: https://kdl.dev
+// "/-" comments out the following node.
+// Check the wiki for a full description of the configuration:
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
+prefer-no-csd
+config-notification {
+    // disable-failed
+}
+
+environment {
+  // XDG_CURRENT_DESKTOP "kde"
+  // QT_QPA_PLATFORM "wayland"
+  QT_QPA_PLATFORMTHEME "kde"
+  // QT_QPA_PLATFORMTHEME_QT6 "qt6ct"
+  ELECTRON_OZONE_PLATFORM_HINT "auto"
+}
+
+hotkey-overlay {
+    skip-at-startup
+}
+
+screenshot-path "~/Pictures/Screenshots/Screenshot from %Y-%m-%d %H-%M-%S.png"
+
+debug {
+    honor-xdg-activation-with-invalid-serial
+}
+
+// Include dms files
+//include "dms/colors.kdl"
+//include "dms/layout.kdl"
+//include "dms/alttab.kdl"
+//include "dms/binds.kdl"
+//include "dms/outputs.kdl"
+//include "dms/cursor.kdl"
+//include "dms/windowrules.kdl"
+include "noctalia.kdl"
+include "windowrules.kdl"
+include "binds.kdl"
+include "animations.kdl"
+include "windowrules.kdl"
+include "layout.kdl"
+include "outputs.kdl"
+include "input.kdl"
+
+//spawn-sh-at-startup "dms run"
+//spawn-at-startup "qs" "-c" "/home/dle/.config/quickshell/noctalia-shell/"
+spawn-at-startup "gnome-keyring-daemon" "--start" "--components=secrets,ssh,pkcs11"
+spawn-at-startup "/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1"
+spawn-at-startup "noctalia"
+

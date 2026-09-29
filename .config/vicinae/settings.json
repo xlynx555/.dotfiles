@@ -12,13 +12,13 @@
    "$schema": "https://vicinae.com/schemas/config.json",
    "theme": {
       "dark": {
-         "name": "noctalia"
+         "name": "nord"
       }
    },
    "favorites": [
+      "applications:code",
+      "applications:chrome-eoficlgicibekocmfdomjbfnjmehnhcd-Default",
       "applications:com.slack.Slack",
-      "applications:msedge-eoficlgicibekocmfdomjbfnjmehnhcd-Default",
-      "applications:msedge-cifhbcnohmdccbgoicgdjpfamggdegmo-Default",
       "clipboard:history"
    ],
    "providers": {

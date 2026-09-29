@@ -13,10 +13,9 @@ function config-sync
         ~/.config/alacritty/ \
         ~/.config/zed/ \
         ~/.config/mc/ \
-        ~/.config/gtk-3.0/ \
-        ~/.config/gtk-4.0/ \
         ~/.config/xsettingsd/ \
         ~/.config/kate/ \
+        ~/.config/niri/ \
         ~/.config/bin/
     config add $config_paths
     config commit -a -m "sync settings"
