@@ -2,8 +2,6 @@
 // "/-" comments out the following node.
 // Check the wiki for a full description of the configuration:
 // https://github.com/YaLTeR/niri/wiki/Configuration:-Introduction
-
-
 config-notification {
     disable-failed
 }
@@ -24,13 +22,13 @@ input {
             // For more information, see xkeyboard-config(7).
 
             // For example:
-             layout "us,ua"
-             options "grp:caps_toggle,compose:ralt,ctrl:nocaps"
+            // layout "us,ru"
+            // options "grp:win_space_toggle,compose:ralt,ctrl:nocaps"
+
             // If this section is empty, niri will fetch xkb settings
             // from org.freedesktop.locale1. You can control these using
             // localectl set-x11-keymap.
         }
-		track-layout "window"
 
         // Enable numlock on startup, omitting this setting disables it.
         numlock
@@ -162,7 +160,6 @@ overview {
 // This line starts waybar, a commonly used bar for Wayland compositors.
 environment {
   XDG_CURRENT_DESKTOP "niri"
-  QT_QPA_PLATFORMTHEME "qt5ct;qt6ct"
 }
 hotkey-overlay {
     skip-at-startup
@@ -266,6 +263,7 @@ recent-windows {
         Alt+Shift+grave { previous-window filter="app-id"; }
     }
 }
+
 // Include dms files
 include optional=true "dms/colors.kdl"
 include optional=true "dms/layout.kdl"
@@ -273,4 +271,3 @@ include optional=true "dms/alttab.kdl"
 include optional=true "dms/binds.kdl"
 include optional=true "dms/outputs.kdl"
 include optional=true "dms/cursor.kdl"
-include "dms/windowrules.kdl"

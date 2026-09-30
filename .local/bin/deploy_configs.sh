@@ -82,7 +82,7 @@ if [ -f /etc/os-release ] && grep -qiE '(^ID=debian$|^ID_LIKE=.*debian)' /etc/os
     echo "Warning: $SRC_GPG not found; skipping."
   fi
   
-  REQUIRED_PACKAGES=(build-essential procps curl file git flatpak kitty foot powershell fonts-inter fonts-jetbrains-mono fonts-firacode gh)
+  REQUIRED_PACKAGES=(build-essential procps curl file git flatpak kitty foot powershell fonts-inter fonts-jetbrains-mono fonts-firacode gh zoxide fzf ripgrep fd-find jq resvg imagemagick)
   MISSING_PACKAGES=()
 
   for PKG in "${REQUIRED_PACKAGES[@]}"; do
@@ -120,27 +120,28 @@ else
   echo "Starship prompt is already installed."
 fi
 # 9. install homebrew if not already installed
-if ! command -v brew >/dev/null 2>&1; then
-  echo "Installing Homebrew..."
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  # Add Homebrew to PATH for the current session
-  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# if ! command -v brew >/dev/null 2>&1; then
+#   echo "Installing Homebrew..."
+#   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+#   # Add Homebrew to PATH for the current session
+#   eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
   
-else
-  echo "Homebrew is already installed."
-fi
+# else
+#   echo "Homebrew is already installed."
+# fi
 # 10 using homebrew install yazi if not already installed
-if ! command -v yazi >/dev/null 2>&1; then
-  echo "Installing yazi with Homebrew..."
-  brew install ffmpeg-full sevenzip jq poppler fd ripgrep fzf zoxide resvg imagemagick-full font-symbols-only-nerd-font
-  brew link ffmpeg-full imagemagick-full -f --overwrite
-  brew install yazi
-else
-  echo "Yazi is already installed."
-fi
+# if ! command -v yazi >/dev/null 2>&1; then
+#   echo "Installing yazi with Homebrew..."
+#   brew install ffmpeg-full sevenzip jq poppler fd ripgrep fzf zoxide resvg imagemagick-full font-symbols-only-nerd-font
+#   brew link ffmpeg-full imagemagick-full -f --overwrite
+#   brew install yazi
+# else
+#   echo "Yazi is already installed."
+# fi
 
 # install other tools with homebrew
-brew install lazysql topgrade
+# brew install lazysql topgrade
 
 # install bin (manage binary releases from Gihthub, Gitlab, Codeberg etc)
 curl -fsSL https://github.com/marcosnils/bin/releases/download/v0.26.0/bin_0.26.0_linux_amd64 -o /tmp/bin_0.26.0_linux_amd64  && chmod +x /tmp/bin_0.26.0_linux_amd64 && /tmp/bin_0.26.0_linux_amd64 install github.com/marcosnils/bin && rm /tmp/bin_0.26.0_linux_amd64
+$HOME/.local/bin/bin ensure

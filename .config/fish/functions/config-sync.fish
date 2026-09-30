@@ -15,6 +15,7 @@ function config-sync
         ~/.config/mc/ \
         ~/.config/xsettingsd/ \
         ~/.config/kate/ \
+        ~/.config/niri/ \
         ~/.config/bin/ \
         ~/.config/foot/
     config add $config_paths

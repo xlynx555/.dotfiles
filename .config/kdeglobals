@@ -1,13 +1,11 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
-Color=56,56,56
+Color=72,69,78
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
-ContrastEffect=0
-Enable=
+ContrastEffect=1
 IntensityAmount=0.1
-IntensityEffect=0
+IntensityEffect=2
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=false
@@ -102,7 +100,7 @@ BrowserApplication=google-chrome-unstable.desktop
 ColorScheme=Moe
 ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
 LastUsedCustomAccentColor=146,110,228
-Name=noctalia
+Name=DankMatugenLight
 XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=rgb
@@ -112,6 +110,7 @@ font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+ColorScheme=DankMatugenLight
 
 [KDE]
 AutomaticLookAndFeelOnIdle=false

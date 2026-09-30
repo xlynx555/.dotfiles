@@ -17,3 +17,7 @@
 	autoSetupRemote = true
 [core]
 	autocrlf = true
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait --merge \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
