@@ -12,4 +12,4 @@ AutoSuspendIdleTimeoutSec=5400
 PowerProfile=balanced
 
 [Battery][SuspendAndShutdown]
-AutoSuspendIdleTimeoutSec=900
+AutoSuspendIdleTimeoutSec=1800

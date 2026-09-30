@@ -10,6 +10,7 @@
 
 {
    "$schema": "https://vicinae.com/schemas/config.json",
+   "close_on_focus_loss": true,
    "theme": {
       "dark": {
          "name": "noctalia"
@@ -21,7 +22,27 @@
       "applications:msedge-cifhbcnohmdccbgoicgdjpfamggdegmo-Default",
       "clipboard:history"
    ],
+   "fallbacks": [
+      "shortcuts:sct-0fd81c1f5768",
+      "@ShyAssassin/store.vicinae.vscode-recents:open-recents",
+      "@thomaslombart/store.raycast.github:search-repositories",
+      "@lardissone/store.raycast.raindrop-io:search",
+      "files:search"
+   ],
    "providers": {
+      "@ShyAssassin/store.vicinae.vscode-recents": {
+         "preferences": {
+            "vscodeFlavour": "Code",
+            "windowPreference": "NewWindow"
+         }
+      },
+      "@lardissone/store.raycast.raindrop-io": {
+         "entrypoints": {
+            "search": {
+               "alias": "bms"
+            }
+         }
+      },
       "applications": {
          "entrypoints": {
             "anytype": {
@@ -65,6 +86,34 @@
             },
             "update-manager": {
                "enabled": false
+            }
+         }
+      },
+      "files": {
+         "preferences": {
+            "autoIndexing": true,
+            "excludedIndexingPaths": [
+               "/home/dle/.cache",
+               "/home/dle/.nuget"
+            ],
+            "indexingPaths": [
+               "/home/dle"
+            ]
+         }
+      },
+      "scripts": {
+         "preferences": {
+            "customDirs": [
+               "/home/dle/.local/bin"
+            ]
+         }
+      },
+      "system": {
+         "entrypoints": {
+            "run": {
+               "preferences": {
+                  "default-action": "run"
+               }
             }
          }
       }

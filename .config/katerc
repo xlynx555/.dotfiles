@@ -19,6 +19,8 @@ Open New Tab To The Right Of Current=false
 Output History Limit=100
 Output With Date=false
 PinnedDocuments=
+Quickopen Filter Mode=0
+Quickopen List Mode=true
 Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
@@ -130,10 +132,12 @@ SetEditor=false
 1920x1200 screen: Height=1076
 1920x1200 screen: Width=1687
 1920x1200 screen: Window-Maximized=true
-2 screens: Window-Maximized=true
+2 screens: Height=809
+2 screens: Width=1096
 2560x1440 screen: Window-Maximized=true
-3 screens: Height=1023
-3 screens: Width=1896
+3 screens: Height=1165
+3 screens: Width=1192
+3 screens: Window-Maximized=true
 
 [Notification Messages]
 Kate hide sidebars notification message=false

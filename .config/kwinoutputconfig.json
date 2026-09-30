@@ -14,7 +14,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.9,
+                "brightness": 0.55,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "eDP-1",
@@ -57,7 +57,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.9,
+                "brightness": 0.95,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "DP-8",
@@ -101,7 +101,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.9,
+                "brightness": 0.95,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "DP-9",
@@ -145,7 +145,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.76,
+                "brightness": 0.81,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
                 "connectorName": "DP-10",
@@ -192,16 +192,21 @@
                 "brightness": 0.5,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
-                "connectorName": "Unknown-1",
+                "connectorName": "DP-8",
+                "customModes": [
+                ],
                 "detectedDdcCi": false,
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
-                    "height": 1200,
-                    "refreshRate": 60000,
-                    "width": 1920
+                    "flags": 1,
+                    "height": 480,
+                    "refreshRate": 59940,
+                    "width": 640
                 },
+                "mstPath": "-1\u0000",
                 "overscan": 0,
                 "rgbRange": "Automatic",
                 "scale": 1,
@@ -226,10 +231,10 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.7,
+                "brightness": 0.9,
                 "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "sRGB",
-                "connectorName": "HDMI-A-1",
+                "connectorName": "DP-8",
                 "customModes": [
                 ],
                 "detectedDdcCi": true,
@@ -238,12 +243,14 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
                     "flags": 0,
                     "height": 1440,
                     "refreshRate": 74968,
                     "width": 2560
                 },
+                "mstPath": "-1\u0000",
                 "overscan": 0,
                 "rgbRange": "Automatic",
                 "scale": 1,
@@ -345,7 +352,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 0,
+                        "priority": 2,
                         "replicationSource": ""
                     },
                     {
@@ -502,8 +509,8 @@
                         "enabled": true,
                         "outputIndex": 0,
                         "position": {
-                            "x": 0,
-                            "y": 0
+                            "x": 2560,
+                            "y": 240
                         },
                         "priority": 2,
                         "replicationSource": ""
@@ -512,7 +519,7 @@
                         "enabled": true,
                         "outputIndex": 5,
                         "position": {
-                            "x": 1920,
+                            "x": 0,
                             "y": 0
                         },
                         "priority": 1,
@@ -530,7 +537,7 @@
                             "x": 0,
                             "y": 0
                         },
-                        "priority": 2,
+                        "priority": 1,
                         "replicationSource": ""
                     },
                     {
@@ -576,6 +583,101 @@
                             "y": 0
                         },
                         "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": true,
+                "outputs": [
+                    {
+                        "enabled": false,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 3,
+                        "position": {
+                            "x": 4480,
+                            "y": 0
+                        },
+                        "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 1,
+                        "position": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 3,
+                        "position": {
+                            "x": 4480,
+                            "y": 0
+                        },
+                        "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 4,
+                        "position": {
+                            "x": 1920,
+                            "y": 0
+                        },
+                        "priority": 0,
                         "replicationSource": ""
                     }
                 ]

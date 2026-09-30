@@ -1,3 +1,10 @@
+[Document 0]
+URL=
+stashedFile=/home/dle/.local/share/kate/stash/jysk.katesession/Document 0
+
+[Document 1]
+URL=file:///home/dle/Code/xlynx555/PingProbe/Directory.Packages.props
+
 [Kate Plugins]
 bookmarksplugin=false
 cmaketoolsplugin=false
@@ -36,7 +43,7 @@ textfilterplugin=true
 
 [MainWindow0]
 Active ViewSpace=0
-Kate-MDI-H-Splitter=0,1896,0
+Kate-MDI-H-Splitter=0,2560,0
 Kate-MDI-Sidebar-0-Bar-0-TvList=kate_private_plugin_katefiletreeplugin,kateproject,kateprojectgit,lspclient_symbol_outline
 Kate-MDI-Sidebar-0-LastSize=279
 Kate-MDI-Sidebar-0-SectSizes=0
@@ -82,22 +89,32 @@ Kate-MDI-ToolView-lspclient_symbol_outline-Visible=false
 Kate-MDI-ToolView-output-Position=3
 Kate-MDI-ToolView-output-Show-Button-In-Sidebar=true
 Kate-MDI-ToolView-output-Visible=false
-Kate-MDI-V-Splitter=0,1002,0
+Kate-MDI-V-Splitter=0,1330,0
 
 [MainWindow0 Settings]
-WindowState=8
+WindowState=10
 
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
-Orientation=2
-Sizes=1002
+Orientation=1
+Sizes=2560
 
 [MainWindow0-ViewSpace 0]
-Count=0
-Documents=
+Active View=1
+Count=1
+Documents=0,1
+View 0=1
+
+[MainWindow0-ViewSpace 0 0]
+CursorColumn=0
+CursorLine=1
+
+[MainWindow0-ViewSpace 0 1]
+CursorColumn=10
+CursorLine=30
 
 [Open Documents]
-Count=0
+Count=2
 
 [Open MainWindows]
 Count=1
@@ -130,23 +147,23 @@ SizeLimit=128
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=/usr/share/wallpapers/Patak/metadata.json
-File10[$e]=$HOME/OpenOrders_FI_SE.csv
-File2[$e]=$HOME/.config/kitty/current-theme.conf
-File3[$e]=$HOME/.config/kitty/kitty.conf
-File4[$e]=$HOME/OpenOrders_JFI_JSE.csv
-File5[$e]=$HOME/Downloads/response (3).json
-File6[$e]=$HOME/Downloads/response (2).json
-File7[$e]=$HOME/Code/ps-gk-database-helper/Providers/Oracle.ps1
-File8[$e]=$HOME/Temp/licence.txt
-File9[$e]=/media/dle/OSDisk/Users/dle/AppData/Roaming/DevExpress/DevExpress_License.txt
-Name1[$e]=metadata.json
-Name10[$e]=OpenOrders_FI_SE.csv
-Name2[$e]=current-theme.conf
-Name3[$e]=kitty.conf
-Name4[$e]=OpenOrders_JFI_JSE.csv
-Name5[$e]=response (3).json
-Name6[$e]=response (2).json
-Name7[$e]=Oracle.ps1
-Name8[$e]=licence.txt
-Name9[$e]=DevExpress_License.txt
+File1[$e]=$HOME/Downloads/Packages (2)
+File10[$e]=$HOME/Documents/smclient.jnlp
+File2[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/v2.7.1331.296 (Q3-26.2)/326.2.2/bundle-Q3-26.2-UC326.2.2-AT-log.txt
+File3[$e]=$HOME/mnt/jump-enactor-e/EnactorBuild/bundles/v2.7.1331.296 (Q3-26.2)/326.2.2/bundle-Q3-26.2-UC326.2.2-AT.hash.json
+File4[$e]=/run/user/1000/kio-fuse-IOqxRT/zip/home/dle/mnt/jump-enactor-e/EnactorBuild/v2.7.1331.296_Q3_26.2_UC326.2.2/EnactorInstallBOS.zip/EnactorInstall.ps1
+File5[$e]=/run/user/1000/kio-fuse-IOqxRT/zip/home/dle/mnt/jump-enactor-e/EnactorBuild/v2.7.1331.296_Q3_26.2_UC326.2.2/EnactorInstallBOS.zip/Hooks/ALL-pre.ps1
+File6[$e]=zip:///home/dle/Code/JYSK/ps-enactor-snippets/Enactor-BEE010-Configuration-Devices-rDtqB.zip/E010-systemJob.xml
+File7[$e]=$HOME/.local/share/powershell/Scripts/Send-EnactorInstaller.ps1
+File8[$e]=zip:///home/dle/Code/JYSK/ps-enactor-snippets/Enactor-DE1110-Configuration-Devices-AhcOe.zip/1110-paymentDevices.xml
+File9[$e]=zip:///home/dle/Code/JYSK/ps-enactor-snippets/Enactor-DE1110-Configuration-Devices-tknwv.zip/1110-paymentDevices.xml
+Name1[$e]=Packages (2)
+Name10[$e]=smclient.jnlp
+Name2[$e]=bundle-Q3-26.2-UC326.2.2-AT-log.txt
+Name3[$e]=bundle-Q3-26.2-UC326.2.2-AT.hash.json
+Name4[$e]=EnactorInstall.ps1
+Name5[$e]=ALL-pre.ps1
+Name6[$e]=E010-systemJob.xml
+Name7[$e]=Send-EnactorInstaller.ps1
+Name8[$e]=1110-paymentDevices.xml
+Name9[$e]=1110-paymentDevices.xml

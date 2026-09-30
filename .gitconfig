@@ -11,5 +11,9 @@
 	defaultBranch = main
 [includeIf "gitdir:~/Code/JYSK"]
     path = ~/.gitconfig-jysk
+[includeIf "gitdir:~/Code/xlynx555"]
+    path = ~/.gitconfig-private
 [push]
 	autoSetupRemote = true
+[core]
+	autocrlf = true

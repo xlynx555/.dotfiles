@@ -3,13 +3,13 @@ First Time=false
 Version=2.9.0
 
 [Archives]
-Supported Packers=tar,gzip,bzip2,lzma,xz,unzip,zip,cbz,cpio,dpkg,7z
+Supported Packers=tar,gzip,bzip2,lzma,xz,unzip,zip,cbz,cpio,dpkg,7z,rpm
 
 [Colors]
 Current Background=192,192,192
 Dim Inactive Colors=true
 Enable Alternate Background=true
-KDE Default=false
+KDE Default=true
 Show Current Item Always=false
 
 [Dependencies]
@@ -25,6 +25,8 @@ mailer=/usr/bin/thunderbird
 md5sum=/usr/bin/md5sum
 mount=/usr/bin/mount
 rm=/usr/bin/rm
+rpm=/usr/bin/rpm
+rpm2cpio=/usr/bin/rpm2cpio
 sha1sum=/usr/bin/sha1sum
 sha224sum=/usr/bin/sha224sum
 sha256sum=/usr/bin/sha256sum
@@ -57,7 +59,7 @@ Window Maximized=false
 Window Width=900
 
 [KrViewerWindow]
-Window Height=1033
+Window Height=1057
 Window Maximized=true
 Window Width=1920
 
@@ -71,12 +73,12 @@ StatusBar=Disabled
 ToolButtonStyle=TextBesideIcon
 
 [Private]
-NewFolder Completion list=Temp:1,2260225:1,normal_hr:1,jsk0060-pl:1,jsk0001-be:1,jsk0270-pl:1,tst-bg0003-p1:1,N545:1,JRO W126:1,Y101:1
-NewFolder History list=Y101,JRO W126,jsk0001-be,jsk0270-pl,N545,tst-bg0003-p1,jsk0060-pl,normal_hr,2260225,Temp
-PopularUrls=sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload/ixretail/2026-06-27/,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload/ixretail/,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload/,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/,sftp://bo-jsk0119-ua/usr/local/gkretail/instances/BO-JSK0119-UA/bo/komm/in/sap/,sftp://bo-jsk0119-ua/usr/local/gkretail/instances/BO-JSK0119-UA/bo/komm/in/sap/status/,sftp://bo-jsk0119-ua/usr/local/gkretail/instances/BO-JSK0119-UA/bo/komm/in/sap/idoc/,sftp://bo-jsk0119-ua/usr/local/gkretail/instances/BO-JSK0119-UA/bo/komm/in/,sftp://bo-jsk0119-ua/usr/local/gkretail/instances/BO-JSK0119-UA/bo/komm/,sftp://prd-wfdhq-01/usr/local/gkretail/wf/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/,sftp://prd-wfdhq-01/usr/local/gkretail/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/,sftp://bo-jsk0119-ua/usr/local/gkretail/instances/BO-JSK0119-UA/bo/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/import_employee/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/import_employee/sk/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/svs/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/__old_wrong_data/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/stock_change/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/import_wawi/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1_temp/,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1_temp/stock_change/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/stock_history/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/stock_change/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/stock/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/sap/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/order/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/download/backup/,sftp://bo-jsk0117-ua/usr/local/gkretail/instances/BO-JSK0117-UA/bo/archive/
-PopularUrlsRank=20,19,18,17,16,15,14,11,11,7,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Start Position=1920,267
-Start Size=1912,1029
+NewFolder Completion list=Temp:1,2260225:1,2452850:1,normal_hr:1,jsk0060-pl:1,jsk0001-be:1,jsk0270-pl:1,tst-bg0003-p1:1,N545:1,JRO W126:1,Y101:1,B262:1,B262_new:1,X733:1,P552:1
+NewFolder History list=P552,2452850,X733,B262_new,B262,Y101,JRO W126,jsk0001-be,jsk0270-pl,N545,tst-bg0003-p1,jsk0060-pl,normal_hr,2260225,Temp
+PopularUrls=sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/komm/in/sap/idoc/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/komm/in/sap/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/komm/in/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/komm/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/sap/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/sap/2026-09-23/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/sap/2026-09-19/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/sap/2026-09-18/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/sap/2026-09-15/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/sap/2026-09-14/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/download/,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download/sap/2026-08-25/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/archive/,file:///media/dle/Transfer/,sftp://mgmgkappl@bo-jsk0352-pl/usr/local/gkretail/instances/BO-JSK0352-PL/bo/,file:///media/dle/Transfer/P552/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/upload/ixretail/2026-09-22/,file:///home/dle/Downloads/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/upload/ixretail/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/upload/pos_delta/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/upload/pos_delta/2026-09-22/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/upload/pos_delta/2026-09-23/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/upload/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/archive/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/bo/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0005-NO/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0009-NO/bo/archive/upload/ixretail/2026-09-22/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0009-NO/bo/archive/upload/ixretail/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0009-NO/bo/archive/,sftp://mgmgkappl@bo-jsk0007-no/usr/local/gkretail/instances/BO-JSK0009-NO/bo/archive/upload/
+PopularUrlsRank=18,17,16,15,11,10,8,6,4,2,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Start Position=0,387
+Start Size=1709,1126
 cmdline history=
 newFTP Completion list=bo-jsk0002-ua:1,bogk5.gk.jysk.local:1,bogk2.gk.jysk.local:1,sftp.integration.tst.enactor.jysk.com:1,storemanagerlpp:1,emeadkhovgkt20:1,lpp-jskt004:1,10.238.96.4:1
 newFTP History list=bogk2.gk.jysk.local,10.238.96.4,storemanagerlpp,lpp-jskt004,emeadkhovgkt20,bogk5.gk.jysk.local,sftp.integration.tst.enactor.jysk.com,bo-jsk0002-ua
@@ -85,16 +87,16 @@ newFTP Protocol=sftp://
 [Search]
 ContainsText Completion=
 ContainsText History=
-SearchFor Completion=758602831,*758602831*
-SearchFor History=*758602831*,758602831
+SearchFor Completion=758602831,*,*758602831*
+SearchFor History=*,*758602831*,758602831
 
 [Startup]
-Left Side Is Active=false
+Left Side Is Active=true
 Show Cmd Line=false
 Show FN Keys=true
 Show Terminal Emulator=false
-Splitter Sizes=956,955
-State=\x00\x00\x00\xff\x00\x00\x00\x00\xfd\x00\x00\x00\x00\x00\x00\x07x\x00\x00\x03\xd7\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x08\xfc\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x16\x00m\x00a\x00i\x00n\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1c\x00a\x00c\x00t\x00i\x00o\x00n\x00s\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x02\xc6\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00j\x00o\x00b\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x04p\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00
+Splitter Sizes=855,853
+State=\x00\x00\x00\xff\x00\x00\x00\x00\xfd\x00\x00\x00\x00\x00\x00\x06\xad\x00\x00\x04\x1c\x00\x00\x00\x04\x00\x00\x00\x04\x00\x00\x00\x08\x00\x00\x00\x08\xfc\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x16\x00m\x00a\x00i\x00n\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x00\x00\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1c\x00a\x00c\x00t\x00i\x00o\x00n\x00s\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x02\xc6\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x14\x00j\x00o\x00b\x00T\x00o\x00o\x00l\x00B\x00a\x00r\x01\x00\x00\x04p\xff\xff\xff\xff\x00\x00\x00\x00\x00\x00\x00\x00
 Terminal Emulator Splitter Sizes=100,100
 Vertical Mode=false
 
@@ -109,7 +111,7 @@ Url=file:///home/dle/Downloads
 
 [Startup][Left Tab Bar][Tabs][Tab0][History]
 CurrentIndex=0
-CurrentItems=DLE profile photo square.PNG,dle,Transfer,..,Transfer,std_pos.log-20260602.gz,Transfer,dle,media,..,Temp
+CurrentItems=,dle,Transfer,..,Transfer,std_pos.log-20260602.gz,Transfer,dle,media,..,Temp
 Entrys=file:///home/dle/Downloads,file:///media,file:///media/dle,file:///media/dle/Transfer,file:///media/dle,file:///media/dle/Transfer,file:///media/dle,file:///media,file:///,file:///mnt,file:///home/dle
 
 [Startup][Left Tab Bar][Tabs][Tab0][View]
@@ -118,7 +120,7 @@ Descending Sort Order=0
 Filter=3
 FilterApplysToDirs=false
 IconSize=22
-Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x03\xbc\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x02\x86\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x88\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
+Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x03B\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x02\x0c\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x88\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
 ShowPreviews=false
 Sort Column=0
 
@@ -126,12 +128,12 @@ Sort Column=0
 PinnedUrl=
 Properties=0
 Type=0
-Url=sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload/ixretail/2026-06-27
+Url=sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download/sap/2026-08-25
 
 [Startup][Left Tab Bar][Tabs][Tab1][History]
 CurrentIndex=0
-CurrentItems=V601.POS_LOG.20260627221503.04135.xml.zip,2026-06-27,ixretail,upload,archive,bo
-Entrys=sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload/ixretail/2026-06-27,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload/ixretail,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive/upload,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo/archive,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR/bo,sftp://bo-jsk0001-hr/usr/local/gkretail/instances/BO-JSK0001-HR
+CurrentItems=J120_260825_215_781862109_SHPMNTBOM.xml,2026-08-25,sap,2026-07-24,sap,download,archive
+Entrys=sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download/sap/2026-08-25,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download/sap,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download/sap,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive/download,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo/archive,sftp://mgmgkappl@bo-jsk0120-ua/usr/local/gkretail/instances/BO-JSK0120-UA/bo
 
 [Startup][Left Tab Bar][Tabs][Tab1][View]
 AutoResizeColumns=true
@@ -139,7 +141,7 @@ Descending Sort Order=0
 Filter=3
 FilterApplysToDirs=false
 IconSize=22
-Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x03\xbc\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x02y\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x92\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
+Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x03B\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x01\xff\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x92\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
 ShowPreviews=false
 Sort Column=0
 
@@ -150,12 +152,12 @@ ActiveTab=0
 PinnedUrl=
 Properties=0
 Type=0
-Url=file:///home/dle/Temp
+Url=file:///media/dle/Transfer
 
 [Startup][Right Tab Bar][Tabs][Tab0][History]
 CurrentIndex=0
-CurrentItems=V601.POS_LOG.20260627221503.04135.xml.zip,WPUWBW01-001234.WPUWBW01.260623190935.11806.xml,JRO W126,Temp,Sample.doc:com.apple.macl,Temp,..,..,jsk0001-be,..,jsk0001-be,bo_server.log,jsk0270-pl
-Entrys=file:///home/dle/Temp,file:///home/dle/Temp/JRO W126,file:///home/dle/Temp,file:///home/dle,file:///media/dle/Transfer,file:///home/dle,file:///home/dle/Downloads,file:///home/dle/Downloads/jsk0001-be,file:///home/dle/Downloads,file:///home/dle/Downloads/jsk0001-be,file:///home/dle/Downloads,file:///home/dle/Downloads/jsk0270-pl,file:///home/dle/Downloads
+CurrentItems=P552,DELVRY06-001234.DELVRY06.260923132316.73367.xml,P552,Transfer,bo_server.log,DELVRY06-001234.DELVRY06.260902121904.34633.xml,X733,B262_260709_215_761692325_SHPMNTBOM.xml,B262_new,..,B262,..,B262_new
+Entrys=file:///media/dle/Transfer,file:///media/dle/Transfer/P552,file:///media/dle/Transfer,file:///media/dle,file:///media/dle/Transfer,file:///media/dle/Transfer/X733,file:///media/dle/Transfer,file:///media/dle/Transfer/B262_new,file:///media/dle/Transfer,file:///media/dle/Transfer/B262,file:///media/dle/Transfer,file:///media/dle/Transfer/B262_new,file:///media/dle/Transfer
 
 [Startup][Right Tab Bar][Tabs][Tab0][View]
 AutoResizeColumns=true
@@ -163,30 +165,9 @@ Descending Sort Order=0
 Filter=3
 FilterApplysToDirs=false
 IconSize=22
-Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x03\xbb\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x02\x9f\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00n\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
+Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x03@\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x02$\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00F\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00n\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x004\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
 ShowPreviews=false
 Sort Column=0
-
-[Startup][Right Tab Bar][Tabs][Tab1]
-PinnedUrl=
-Properties=0
-Type=0
-Url=sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1
-
-[Startup][Right Tab Bar][Tabs][Tab1][History]
-CurrentIndex=0
-CurrentItems=stock_change,import1,imex,transfer,..,wf,imex,import1,import_employee,..,stock_change,..,stock_change
-Entrys=sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex,sftp://prd-wfdhq-01/usr/local/gkretail/transfer,sftp://prd-wfdhq-01/usr/local/gkretail,sftp://prd-wfdhq-01/usr/local/gkretail/wf,sftp://prd-wfdhq-01/usr/local/gkretail,sftp://prd-wfdhq-01/usr/local/gkretail/transfer,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/stock_change,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1/stock_change,sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/import1
-
-[Startup][Right Tab Bar][Tabs][Tab1][View]
-AutoResizeColumns=true
-Descending Sort Order=512
-Filter=3
-FilterApplysToDirs=false
-IconSize=22
-Saved State=\x00\x00\x00\xff\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x00\x04\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xa8\x07\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00d\x00\x00\x00\n\x00\x00\x00d\x00\x00\x00\x03\x00\x00\x00d\x00\x00\x00\x05\x00\x00\x00d\x00\x00\x00\t\x00\x00\x00d\x00\x00\x00\x08\x00\x00\x00d\x00\x00\x03\xbb\x00\x00\x00\x0b\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\xff\xff\xff\xff\x00\x00\x00\x81\x00\x00\x00\x00\x00\x00\x00\x0b\x00\x00\x02x\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x002\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00P\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x92\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00/\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\x03\xe8\x00\x00\x00\x00d\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01
-ShowPreviews=false
-Sort Column=4
 
 [Toolbar actionsToolBar]
 ToolButtonStyle=TextBesideIcon

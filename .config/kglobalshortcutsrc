@@ -11,7 +11,7 @@ Switch to Next Keyboard Layout=Alt+Shift,Meta+Alt+K,Switch to Next Keyboard Layo
 _k_friendly_name=Keyboard Layout Switcher
 
 [kaccess]
-Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
+Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
 
 [kmix]
@@ -144,7 +144,7 @@ Window Custom Quick Tile Bottom=none,,Custom Quick Tile Window to the Bottom
 Window Custom Quick Tile Left=none,,Custom Quick Tile Window to the Left
 Window Custom Quick Tile Right=none,,Custom Quick Tile Window to the Right
 Window Custom Quick Tile Top=none,,Custom Quick Tile Window to the Top
-Window Fullscreen=Meta+F,,Make Window Fullscreen
+Window Fullscreen=Meta+Shift+F,,Make Window Fullscreen
 Window Grow Horizontal=none,,Expand Window Horizontally
 Window Grow Vertical=none,,Expand Window Vertically
 Window Lower=none,,Lower Window
@@ -254,12 +254,12 @@ karousel-column-move-to-previous-desktop=,none,Karousel: Move column to the prev
 karousel-column-toggle-stacked=Meta+X,none,Karousel: Toggle stacked layout for focused column
 karousel-column-width-decrease=Meta+Ctrl+-,none,Karousel: Decrease column width
 karousel-column-width-increase=Meta+Ctrl++,none,Karousel: Increase column width
-karousel-column-width-maximize=,none,Karousel: Increase column width to maximum
+karousel-column-width-maximize=Meta+F,none,Karousel: Increase column width to maximum
 karousel-column-width-minimize=,none,Karousel: Decrease column width to minimum
 karousel-columns-squeeze-left=,none,Karousel: Squeeze left column onto the screen
 karousel-columns-squeeze-right=Meta+Ctrl+D,none,Karousel: Squeeze right column onto the screen
 karousel-columns-width-equalize=,none,Karousel: Equalize widths of visible columns
-karousel-cycle-preset-widths=,none,Karousel: Cycle through preset column widths
+karousel-cycle-preset-widths=Meta+R,none,Karousel: Cycle through preset column widths
 karousel-cycle-preset-widths-reverse=,none,Karousel: Cycle through preset column widths in reverse
 karousel-focus-1=,none,Karousel: Move focus to column 1
 karousel-focus-10=,none,Karousel: Move focus to column 10
@@ -282,7 +282,7 @@ karousel-focus-right=,none,Karousel: Move focus right
 karousel-focus-start=Meta+Home,none,Karousel: Move focus to start
 karousel-focus-up=,none,Karousel: Move focus up
 karousel-grid-scroll-end=Meta+Alt+End,none,Karousel: Scroll to end
-karousel-grid-scroll-focused=Meta+Alt+Return,none,Karousel: Center focused window
+karousel-grid-scroll-focused=Meta+C,none,Karousel: Center focused window
 karousel-grid-scroll-left=Meta+Alt+PgUp,none,Karousel: Scroll left
 karousel-grid-scroll-left-column=Meta+Alt+A,none,Karousel: Scroll one column to the left
 karousel-grid-scroll-right=Meta+Alt+PgDown,none,Karousel: Scroll right
@@ -355,7 +355,7 @@ Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Increase 
 Increase Screen Brightness Small=Shift+Monitor Brightness Up,Shift+Monitor Brightness Up,Increase Screen Brightness by 1%
 PowerDown=Power Down,Power Down,Power Down
 PowerOff=Power Off,Power Off,Power Off
-Sleep=Sleep,Sleep,Suspend
+Sleep=Sleep\tMeta+Ctrl+Alt+S,Sleep,Suspend
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Toggle Keyboard Backlight
 Turn Off Screen=none,none,Turn Off Screen
 _k_friendly_name=Power Management
@@ -375,6 +375,7 @@ activate task manager entry 6=Meta+6,Meta+6,Activate Task Manager Entry 6
 activate task manager entry 7=Meta+7,Meta+7,Activate Task Manager Entry 7
 activate task manager entry 8=Meta+8,Meta+8,Activate Task Manager Entry 8
 activate task manager entry 9=Meta+9,Meta+9,Activate Task Manager Entry 9
+activate widget 105=,none,Activate Icons-Only Task Manager Widget
 activate widget 39=Meta+N,none,Activate Notifications Widget
 activate widget 5=none,none,Activate Application Launcher Widget
 activate widget 51=,none,Activate Digital Clock Widget
@@ -400,17 +401,56 @@ switch to next activity=none,,Switch to Next Activity
 switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=,,Toggle do not disturb
 
+[services][btop.desktop]
+_launch=Meta+Ctrl+T
+
+[services][foot.desktop]
+_launch=Meta+Return
+
+[services][google-chrome-unstable.desktop]
+new-private-window=Meta+Alt+Shift+B
+new-window=Meta+Alt+B
+
 [services][msedge-faolnafnngnfdaknnbpnkhgohbobgegn-Default.desktop]
 _launch=Meta+Alt+M
 
+[services][net.local.foot.desktop]
+_launch=Meta+Shift+E
+
+[services][net.local.for.desktop]
+_launch=Meta+Ctrl+Shift+N
+
 [services][net.local.kitty.desktop]
-_launch=Meta+Return
+_launch=Meta+Alt+Return
+
+[services][net.local.vicinae-2.desktop]
+_launch=Meta+Alt+S
+
+[services][net.local.vicinae-3.desktop]
+_launch=Meta+Alt+M
+
+[services][net.local.vicinae-4.desktop]
+_launch=Meta+Alt+W
+
+[services][net.local.vicinae-5.desktop]
+_launch=Meta+Alt+T
 
 [services][net.local.vicinae-clipboard.sh.desktop]
 _launch=Meta+V
 
+[services][net.local.vicinae.desktop]
+_launch=Meta+Shift+T
+
+[services][org.kde.krdc.desktop]
+_launch=Meta+Ctrl+K
+
 [services][org.kde.krusader.desktop]
 _launch=Meta+Alt+K
+
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
+RecordRegion=Meta+Shift+R
 
 [services][vicinae.desktop]
 toggle=Meta+Space
@@ -423,5 +463,5 @@ Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Next profile
 Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Previous Profile
 Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Toggle between all screens
 Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Toggle the Stylus Tool Relative/Absolute
-Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Enable/Disable the Touch Tool
+Toggle touch tool=none,Meta+Ctrl+T,Enable/Disable the Touch Tool
 _k_friendly_name=Wacom Tablet

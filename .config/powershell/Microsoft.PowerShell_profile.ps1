@@ -1,4 +1,4 @@
-$env:PATH += ":/home/dle/.krew/bin:/home/dle/.local/bin:/home/dle/.cargo/bin:/home/linuxbrew/.linuxbrew/bin/"
+$env:PATH += ":/home/dle/.krew/bin:/home/dle/.local/bin"
 Invoke-Expression (&starship init powershell)
 
 Set-Variable -Name "JYSKPSRepoKey" -Value "a5725b99-0133-3c71-9434-ff3a416eb3b4" -Scope Global -Option ReadOnly
@@ -34,5 +34,12 @@ function EnactorDB {
         [Parameter(Mandatory = $true, Position = 0)][string]$Name
     )
     &lazysql mysql://enactor:$(Get-EnactorDBPass $Name)@$Name 
+}
+function EnactorDBSQLit {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory = $true, Position = 0)][string]$Name
+    )
+    &sqlit mysql://enactor:$(Get-EnactorDBPass $Name)@$Name 
 }
 $global:UseOpenSSH = $true

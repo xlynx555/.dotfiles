@@ -104,7 +104,7 @@
   <tooltip>GK SFTP</tooltip>
   <icon>folder-remote-symbolic</icon>
   <category>System</category>
-  <command>bash -c 'h="%_Ask("Enter Hostname", "bo-jsk")%"; host=${h^^}; krusader --left "sftp://$h/usr/local/gkretail/instances/$host/"'
+  <command>bash -c 'h="%_Ask("Enter Hostname", "bo-jsk")%"; host=${h^^}; krusader --left "sftp://mgmgkappl@$h/usr/local/gkretail/instances/$host/bo"'
 </command>
   <defaultshortcut>Ctrl+Alt+Shift+G</defaultshortcut>
  </action>
@@ -112,12 +112,12 @@
   <title>WFD PROD</title>
   <tooltip>WFD PROD</tooltip>
   <category>System</category>
-  <command>krusader "sftp://prd-wfdhq-01/usr/local/gkretail/transfer/imex/"</command>
+  <command>krusader "sftp://mgmgkappl@prd-wfdhq-01/usr/local/gkretail/transfer/imex/"</command>
  </action>
  <action name="WFD PROD_1">
   <title>WFD TST</title>
   <tooltip>WFD TST</tooltip>
   <category>System</category>
-  <command>krusader "sftp://tst-wfdhq-01/usr/local/gkretail/transfer/imex/"</command>
+  <command>krusader "sftp://mgmgkappl@tst-wfdhq-01/usr/local/gkretail/transfer/imex/"</command>
  </action>
 </KrusaderUserActions>

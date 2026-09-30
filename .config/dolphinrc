@@ -1,8 +1,14 @@
-[CompactMode]
-PreviewSize=64
+[DetailsMode]
+PreviewSize=22
 
 [General]
+AutoExpandFolders=true
+BrowseThroughArchives=true
+GlobalViewProps=false
+RememberOpenedTabs=false
 ShowFullPath=true
+ShowZoomSlider=true
+UseTabForSwitchingSplitView=true
 Version=202
 ViewPropsTimestamp=2026,2,18,19,6,10.367
 
@@ -23,7 +29,10 @@ MenuBar=Disabled
 ToolButtonStyle=IconOnly
 
 [PreviewSettings]
-Plugins=imagethumbnail,djvuthumbnail,blenderthumbnail,appimagethumbnail,windowsexethumbnail,windowsimagethumbnail,comicbookthumbnail,audiothumbnail,directorythumbnail,opendocumentthumbnail,gsthumbnail,ffmpegthumbs,jpegthumbnail,kraorathumbnail,fontthumbnail,exrthumbnail,svgthumbnail,cursorthumbnail,mobithumbnail,rawthumbnail,ebookthumbnail,glycin-heif,papers,webp-pixbuf,glycin-svg,heif,glycin-image-rs,glycin-jxl,gnome-font-viewer,jxl,librsvg
+Plugins=appimagethumbnail,audiothumbnail,glycin-heif,blenderthumbnail,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,glycin-image-rs,jpegthumbnail,glycin-jxl,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mobithumbnail,opendocumentthumbnail,gsthumbnail,rawthumbnail,librsvg,glycin-svg,svgthumbnail,ffmpegthumbs
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
+
+[VersionControl]
+enabledPlugins=Git
