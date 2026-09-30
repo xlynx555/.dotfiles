@@ -1,0 +1,134 @@
+{
+    "default_path": "/home/dle/.local/bin",
+    "bins": {
+        "/home/dle/.local/bin/bin": {
+            "path": "/home/dle/.local/bin/bin",
+<<<<<<< HEAD
+            "remote_name": "bin_0.29.3_linux_amd64",
+            "version": "v0.29.3",
+            "hash": "e55a73b48f93d3255594b963d9e4fc69700be1eeba73eefc33f3c0d0c67fcd48",
+            "url": "https://github.com/marcosnils/bin/releases/tag/v0.29.3",
+            "provider": "github",
+            "package_path": "",
+            "selected_asset": "bin_0.29.3_linux_amd64",
+=======
+            "remote_name": "bin_0.29.4_linux_amd64",
+            "version": "v0.29.4",
+            "hash": "f7a179a813675bde2d8cf0ad3b4ae1d7bb1c6732daf623fb8deeba9f5f4782a7",
+            "url": "https://github.com/marcosnils/bin/releases/tag/v0.29.4",
+            "provider": "github",
+            "package_path": "",
+            "selected_asset": "bin_0.29.4_linux_amd64",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/cliamp": {
+            "path": "/home/dle/.local/bin/cliamp",
+            "remote_name": "cliamp-linux-amd64",
+            "version": "v2.2.0",
+            "hash": "60fd335e367d920fbfa898a6c87e419616acb55e712e17b5439ab7573f60d882",
+            "url": "https://github.com/bjarneo/cliamp/releases/tag/v2.2.0",
+            "provider": "github",
+            "package_path": "",
+            "selected_asset": "cliamp-linux-amd64",
+>>>>>>> 2871dc1472f753640b1c614dbc7a566844a022f1
+            "pinned": false
+        },
+        "/home/dle/.local/bin/copilot": {
+            "path": "/home/dle/.local/bin/copilot",
+            "remote_name": "copilot",
+<<<<<<< HEAD
+            "version": "v1.0.87",
+            "hash": "867514749e5dd2bd17a74e5464eff0e27bda559267595e1bb79ca7a304f8519d",
+            "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.87",
+=======
+            "version": "v1.0.88",
+            "hash": "0059754cf78c3f3bf2c9d4564dfa7e9e25f3a3f8f411f2f0cdad9363f5662748",
+            "url": "https://github.com/github/copilot-cli/releases/tag/v1.0.88",
+>>>>>>> 2871dc1472f753640b1c614dbc7a566844a022f1
+            "provider": "github",
+            "package_path": "copilot",
+            "selected_asset": "copilot-linux-x64.tar.gz",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/dua": {
+            "path": "/home/dle/.local/bin/dua",
+            "remote_name": "dua",
+            "version": "v2.45.0",
+            "hash": "33de089ba193fcfd532ae58bec1751103d80c1d83e3dcf028866ed4dee2f50fb",
+            "url": "https://github.com/Byron/dua-cli/releases/tag/v2.45.0",
+            "provider": "github",
+            "package_path": "dua-v2.45.0-x86_64-unknown-linux-musl/dua",
+            "selected_asset": "dua-v2.45.0-x86_64-unknown-linux-musl.tar.gz",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/lazysql": {
+            "path": "/home/dle/.local/bin/lazysql",
+            "remote_name": "lazysql",
+            "version": "v0.5.9",
+            "hash": "8e27af78111d2ace18f76f9c7bec0624f5cdc4d83466cb75965148536a0279d5",
+            "url": "https://github.com/jorgerojas26/lazysql/releases/tag/v0.5.9",
+            "provider": "github",
+            "package_path": "lazysql",
+            "selected_asset": "lazysql_Linux_x86_64.tar.gz",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/spf": {
+            "path": "/home/dle/.local/bin/spf",
+            "remote_name": "spf",
+            "version": "v1.6.0",
+            "hash": "8a349474cc8c802b0144ec5c696ece451746127700808f76c2041e83a76bfc41",
+            "url": "https://github.com/yorukot/superfile",
+            "provider": "github",
+            "package_path": "./dist/superfile-linux-v1.6.0-amd64/spf",
+            "selected_asset": "",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/tideftp": {
+            "path": "/home/dle/.local/bin/tideftp",
+            "remote_name": "tideftp-linux-x86_64",
+            "version": "v0.3.2",
+            "hash": "d230b149ec0da1c6f928936646b4a17c919f9b8ae64675c53e13b60d6f3ac061",
+            "url": "https://github.com/allisonhere/TideFTP/releases/tag/v0.3.2",
+            "provider": "github",
+            "package_path": "tideftp-linux-x86_64",
+            "selected_asset": "tideftp-linux-x86_64.tar.gz",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/topgrade": {
+            "path": "/home/dle/.local/bin/topgrade",
+            "remote_name": "topgrade",
+            "version": "v17.12.1",
+            "hash": "7e7317ab77c06fc1f47e491ec1137254910adfe1b4844717ff0bc08d38853799",
+            "url": "https://github.com/topgrade-rs/topgrade/releases/tag/v17.12.1",
+            "provider": "github",
+            "package_path": "topgrade",
+            "selected_asset": "topgrade-v17.12.1-x86_64-unknown-linux-gnu.tar.gz",
+            "pinned": false
+        },
+        "/home/dle/.local/bin/vault": {
+            "path": "/home/dle/.local/bin/vault",
+            "remote_name": "vault",
+            "version": "2.1.1",
+            "hash": "9884f0701448caa8b466b8360d1113dc7e1289596d3a8715b3231d08243046a5",
+            "url": "https://releases.hashicorp.com/vault/2.1.1/index.json",
+            "provider": "hashicorp",
+            "package_path": "vault",
+            "selected_asset": "vault_2.1.1_linux_amd64.zip",
+<<<<<<< HEAD
+=======
+            "pinned": false
+        },
+        "/home/dle/.local/bin/yazi": {
+            "path": "/home/dle/.local/bin/yazi",
+            "remote_name": "yazi",
+            "version": "v26.9.1",
+            "hash": "a225a6a5af77574652a4bbc750369da7871f1bede6f0cd3a80ba6d704b9dea27",
+            "url": "https://github.com/sxyazi/yazi/releases/tag/v26.9.1",
+            "provider": "github",
+            "package_path": "yazi-x86_64-unknown-linux-gnu/yazi",
+            "selected_asset": "yazi-x86_64-unknown-linux-gnu.zip",
+>>>>>>> 2871dc1472f753640b1c614dbc7a566844a022f1
+            "pinned": false
+        }
+    }
+}

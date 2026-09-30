@@ -1,0 +1,28 @@
+function config-sync
+    set -l config_paths \
+        ~/.local/share/krusader/ \
+        ~/.local/share/kxmlgui5/ \
+        ~/.local/share/kwin/ \
+        ~/.local/share/kate/ \
+        ~/.local/share/krdc/ \
+        ~/.config/fish/ \
+        ~/.config/kitty/ \
+        ~/.config/powershell/ \
+        ~/.config/yazi/ \
+        ~/.config/btop/ \
+        ~/.config/alacritty/ \
+        ~/.config/zed/ \
+        ~/.config/mc/ \
+        ~/.config/xsettingsd/ \
+        ~/.config/kate/ \
+<<<<<<< HEAD
+        ~/.config/bin/ \
+        ~/.config/foot/
+=======
+        ~/.config/niri/ \
+        ~/.config/bin/
+>>>>>>> 2871dc1472f753640b1c614dbc7a566844a022f1
+    config add $config_paths
+    config commit -a -m "sync settings"
+    config push
+end
